@@ -1,0 +1,1397 @@
+﻿body {
+    overflow-x: hidden;
+}
+
+
+.cs-html-widget a:link {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+a:focus,
+a:focus > img,
+button:focus {
+    outline: 2px dotted #666666 !important;
+    
+}
+
+a.carousel-control {
+    outline: unset !important;
+}
+
+.carousel-control:focus span,
+.carousel-control:focus i {
+    outline: 2px dotted #666666 !important;
+}
+
+.cs-gallery-widget a:focus > img {
+    outline: 2px dotted #666666 !important;
+}
+
+@media (min-width: 1px) and (max-width: 760px) {
+    .cs-page{
+        overflow: hidden;
+    }
+
+    ::-webkit-scrollbar {
+        width: 12px !important;
+        -webkit-overflow-scrolling: auto;
+    }
+
+    ::-webkit-scrollbar-track {
+        -webkit-box-shadow: inset 0 0 6px #c1c1c1 !important;
+        -webkit-border-radius: 10px !important;
+        border-radius: 10px !important;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        -webkit-border-radius: 10px !important;
+        border-radius: 10px !important;
+        background: #a2a2a2 !important;
+        -webkit-box-shadow: inset 0 0 6px #f1f1f1 !important;
+    }
+
+        ::-webkit-scrollbar-thumb:window-inactive {
+            background: #e2e2e2 !important;
+        }
+
+    
+}
+
+/* Flex Grid */
+.cs-flex-grid {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    margin: -20px 0 0 -20px;
+    width: calc(100% + 20px);
+}
+
+    .cs-flex-grid > * {
+        margin: 20px 0 0 20px;
+    }
+
+/* Carousel */
+.carousel-caption {
+    z-index: 10 !important;
+}
+
+  .carousel-caption p {
+    font-size: 20px;
+    line-height: 1.4;
+  }
+
+@media (min-width: 768px) {
+  .carousel-caption {
+    z-index: 10 !important;
+  }
+}
+
+/* page placeholder */
+.page-content-placeholder
+{
+    font-size: 40px;
+    height: 450px;
+    padding-top: 100px;
+    color: #aaa;
+    background: rgba(200, 200, 200, 0.4);
+}
+
+/* page version dialog*/
+.version-manager-dialog {
+        min-height: 220px;
+}
+
+    .version-manager-dialog h5
+    {
+        font-size: 18px;
+        padding-left: 5px;
+    }
+    .version-manager-dialog .tab-content
+    {
+        padding-top: 25px;
+    }
+
+    .version-manager-dialog .table td,
+    .version-manager-dialog .table th
+    {
+        font-size: 14px;
+    }
+
+    .version-manager-dialog .table a,
+    .version-manager-dialog .table a:hover
+    {
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+/* default modal styles*/
+.modal-dialog
+{
+    background: #fff;
+    width: 960px !important;
+    min-height: 250px;
+}
+
+.modal-body {
+    background: #fff !important;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding: 15px !important;
+    max-height: 80vh;
+}
+
+@media (min-width: 1px) and (max-width: 599px) {
+    .modal-dialog {
+        width: 100% !important;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 959px) {
+    .modal-dialog {
+        width: 90% !important;
+    }
+}
+
+/* default navbar styles */
+.navbar-placeholder
+{
+    font-size: large;
+}
+
+.navbar-submenu 
+{
+    width: 480px;
+    list-style: none;
+    padding-left: 20px;
+}
+
+.navbar-submenu > li > a 
+{
+    padding: 3px 20px;
+    clear: both;
+    color: inherit;
+    white-space: nowrap;
+}
+
+@media (min-width: 768px) {
+    ul.nav li.cs-navbar:hover > ul.dropdown-menu {
+        display: block;
+    }
+
+    .dropdown:hover :not(.cs-calButton) .dropdown-menu {
+        display: block;
+    }
+    .dropdown-menu {
+        margin-top: 0 !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .scrollable-nav-menu {
+        height: auto;
+        max-height: 500px;
+        overflow-x: hidden;
+    }
+}
+
+
+/* skip-main */
+a.skip-main {
+    left:-999px;
+    position:absolute;
+    top:auto;
+    width:1px;
+    height:1px;
+    overflow:hidden;
+    z-index:-999;
+}
+a.skip-main:focus, a.skip-main:active {
+    color: #fff;
+    background-color:#000;
+    left: auto;
+    top: auto;
+    width: 30%;
+    height: auto;
+    overflow:auto;
+    margin: 10px 35%;
+    padding:5px;
+    border-radius: 15px;
+    border:4px solid yellow;
+    text-align:center;
+    font-size:1.2em;
+    z-index:999;
+}
+
+/* Search Results */
+.cs-search-header
+{
+}
+
+.cs-search-info {
+    font-size: 16px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+.cs-search-info-no-results{
+    min-height: 250px;
+}
+
+.cs-search-result{
+    margin-bottom: 20px;
+}
+
+.cs-search-result h5 a
+{
+    font-size: 20px !important;
+}
+
+
+/* Loading Animation */
+.loading-animate {
+    -animation: spin .7s infinite linear;
+    -webkit-animation: spin2 .7s infinite linear;
+}
+
+@-webkit-keyframes spin2 {
+    from { -webkit-transform: rotate(0deg);}
+    to { -webkit-transform: rotate(360deg);}
+}
+
+@keyframes spin {
+    from { transform: scale(1) rotate(0deg);}
+    to { transform: scale(1) rotate(360deg);}
+}
+
+/* override nested bootstrap container classes*/
+.container .container{
+    width: 100% !important;
+    height: auto !important;
+    margin: auto !important;
+    padding: initial !important;
+}
+
+
+/* carousel widget classes */
+.cs-carousel-widget-container {
+}
+.cs-carousel-widget-slide-container {
+    max-height: none;
+    min-height: 0 !important;
+}
+.cs-carousel-widget-title {
+    font-size: 26px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 1px 1px 5px #222;
+}
+.cs-carousel-widget-description {
+    font-weight: bold;
+    color: white;
+    text-shadow: 1px 1px 5px #222;
+}
+.cs-carousel-widget-link {
+}
+.cs-carousel-widget-controls {
+}
+.cs-carousel-widget-left-btn {
+}
+.cs-carousel-widget-right-btn {
+}
+
+
+/* search widget */
+.search-field {
+    white-space:nowrap;
+}
+
+.search-field i {
+    display: inline-block;
+    cursor: pointer;
+    width: 25px;
+    min-height: 25px;
+    overflow: hidden;
+    vertical-align: middle;
+}
+
+.hidden-sc {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #575757;
+    opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #575757;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: #575757;
+}
+
+.cs-size-18 {
+    font-size: 18px;
+}
+
+
+.cs-form input[type=checkbox] {
+    -ms-transform: scale(2); /* IE */
+    -moz-transform: scale(2); /* FF */
+    -webkit-transform: scale(2); /* Safari and Chrome */
+    -o-transform: scale(2); /* Opera */
+    margin: 10px;
+}
+
+
+
+/* Blog/News/Announcements post*/
+.cs-post-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: -15px;
+    margin-top: 5px;
+}
+
+.cs-post-list-image {
+    width: 100%;
+    height: auto;
+}
+
+
+.cs-post-list-details {
+    padding-left: 15px;
+}
+
+.cs-post-list-exerpt {
+    height: 50px;
+    overflow: hidden;
+}
+
+
+/* calendar event page*/
+
+.cs-event-repeat {
+    background-color: transparent;
+    border-radius: 5px;
+    border-width: 1px;
+    font-size: 11px;
+    position: absolute;
+}
+
+.csc-force-left {
+    position: relative;
+    display: inline-block;
+    right: 0%;
+    transform: translate(0%);
+    z-index: 1;
+}
+
+.csc-force-center {
+    position: relative;
+    display: inline-block;
+    right: -50%;
+    transform: translate(-50%);
+    z-index: 1;
+}
+
+.csc-force-right {
+    position: relative;
+    display: inline-block;
+    right: -100%;
+    transform: translate(-100%);
+    z-index: 1;
+}
+
+
+/* flex-box */
+.display-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row.display-flex {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.row.display-flex > [class*='col-'] {
+    flex-grow: 1;
+}
+
+@media (min-width: 1px) and (max-width: 599px) {
+    .row.display-flex {
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
+
+
+
+/* Base card list */
+.cs-card-thumbnail img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.cs-card-thumbnail {
+    padding: 0px;
+    border: 0;
+    margin-bottom: 20px;
+}
+
+.cs-card {
+    max-width: 292px;
+    padding: 15px;
+}
+
+/* Horizontal card list */
+.cs-card-horizontal .cs-text {
+    height: auto;
+    overflow: hidden
+}
+
+
+/* horizontal card list 2 */
+.cs-blog-widget-horizontal2 .cs-card .cs-text,
+.cs-announcement-widget-horizontal2 .cs-card .cs-text,
+.cs-news-widget-horizontal2 .cs-card .cs-text {
+    color: black;
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.cs-blog-widget-horizontal2 .cs-card-thumbnail,
+.cs-announcement-widget-horizontal2 .cs-card-thumbnail,
+.cs-news-widget-horizontal2 .cs-card-thumbnail {
+    padding: 0px;
+    border: 0;
+    margin-bottom: 0;
+}
+
+
+
+/* horizontal card carousel */
+.cs-blog-widget-carousel .cs-card,
+.cs-announcement-widget-carousel .cs-card,
+.cs-news-widget-carousel .cs-card {
+    max-width: unset;
+    padding: 0px;
+}
+
+.cs-blog-widget-carousel .cs-card .cs-text,
+.cs-announcement-widget-carousel .cs-card .cs-text,
+.cs-news-widget-carousel .cs-card .cs-text {
+    color: black;
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.cs-blog-widget-carousel .cs-card-thumbnail,
+.cs-announcement-widget-carousel .cs-card-thumbnail,
+.cs-news-widget-carousel .cs-card-thumbnail {
+    padding: 0px;
+    border: 0;
+    margin-bottom: 0px;
+}
+
+
+
+/* Upcoming Events -------------------------------------- */
+
+.cs-upcoming-events1 .cs-widget-header,
+.cs-upcoming-events1-v .cs-widget-header,
+.cs-upcoming-events2 .cs-widget-header,
+.cs-upcoming-events3 .cs-widget-header,
+.cs-upcoming-events3-v .cs-widget-header {
+    border-bottom: solid 1px #cccccc;
+}
+
+.cs-card2 {
+    padding: 15px;
+    width: 290px;
+}
+
+.cs-upcoming-events3 .cs-card2,
+.cs-upcoming-events3-v .cs-card2 {
+    display: flex;
+    flex-flow: column;
+    width: 285px;
+    /*align-items: center;*/
+}
+
+.cs-upcoming-events3-v .cs-card2 {
+    padding: 15px 0 10px 0;
+}
+
+.cs-upcoming-events-carousel .cs-card2 {
+    max-width: unset;
+    width: 100%;
+    padding: 0px;
+}
+
+.cs-date-card .cs-datemonth {
+    text-align: center;
+    padding: 2px;
+}
+
+.cs-date-card .cs-datenumber {
+    font-size: 50px;
+    font-weight: 400;
+    text-align: center;
+    padding: 6px 2px 14px 2px;
+}
+
+
+
+.cs-upcoming-events3 .cs-date-card,
+.cs-upcoming-events3-v .cs-date-card {
+    width: 100%;
+}
+
+.cs-upcoming-events2 .cs-card-body,
+.cs-upcoming-events2-v .cs-card-body {
+    padding-left: 30px;
+}
+
+.cs-upcoming-events3 .cs-card-body,
+.cs-upcoming-events3-v .cs-card-body {
+    margin-top: 15px;
+}
+
+.cs-upcoming-events2 .cs-datenumber,
+.cs-upcoming-events2-v .cs-datenumber {
+    font-size: 30px;
+    padding-bottom: 5px;
+}
+
+.cs-upcoming-events-carousel .cs-datenumber {
+    font-size: 40px;
+    padding: 0;
+    margin-top: -5px;
+}
+
+.cs-upcoming-events3 .cs-datenumber,
+.cs-upcoming-events3-v .cs-datenumber {
+    font-size: 60px;
+    font-weight: bold;
+    margin-top: -25px;
+    padding-bottom: 0px;
+    border-bottom: solid 1px #cccccc;
+}
+
+.cs-upcoming-events-carousel .cs-subtext {
+    margin-bottom: 10px;
+    margin-top: 4px;
+    color: inherit;
+}
+
+
+@media (min-width: 1px) and (max-width: 599px) {
+    .cs-upcoming-events2 .cs-date-card,
+    .cs-upcoming-events2-v .cs-date-card,
+    .cs-upcoming-events-carousel .cs-date-card {
+        border-right: none;
+        padding-right: 0px;
+        padding-left: 20px;
+    }
+
+    .cs-upcoming-events1,
+    .cs-upcoming-events1-v,
+    .cs-upcoming-events2,
+    .cs-upcoming-events2-v,
+    .cs-upcoming-events3,
+    .cs-upcoming-events3-v {
+        text-align: center;
+    }
+
+
+    .cs-upcoming-events-carousel .cs-card-body {
+        text-align: center;
+    }
+    .cs-upcoming-events-carousel .cs-date-card {
+        padding-right: 15px;
+    }
+}
+
+
+@media screen and (min-width: 800px) {
+    .cs-upcoming-events1 .cs-card-body {
+        padding-left: 5px;
+    }
+
+    .cs-upcoming-events2 .cs-date-card,
+    .cs-upcoming-events2-v .cs-date-card,
+    .cs-upcoming-events-carousel .cs-date-card {
+        border-right: solid 1px #cccccc;
+        padding-right: 0px;
+        padding-left: 20px;
+    }
+}
+
+
+/* Quicklinks -------------------------------------- */
+
+@media (min-width: 1px) and (max-width: 599px) {
+    .cs-quicklinks-cards,
+    .cs-quicklinks-icons,
+    .cs-quicklinks-images,
+    .cs-quicklinks-imageslist,
+    .cs-quicklinks-bubbles,
+    .cs-quicklinks-bubbleslist {
+        text-align: center;
+    }
+    .cs-quicklinks-bubbleslist .cs-card {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+
+
+/* Quicklinks - Hover */
+.cs-quicklinks-hover .cs-card-group {
+    justify-content: center;
+}
+
+.cs-quicklinks-hover .cs-description-wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    min-height: 335px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3s ease 0s;
+}
+
+.cs-quicklinks-hover .cs-link-focus,
+.cs-quicklinks-hover .cs-description-wrapper:hover,
+.cs-quicklinks-hover .cs-description-wrapper:focus {
+    background: rgb(0 0 0 / 50%);
+    opacity: 1;
+}
+
+.cs-quicklinks-hover .cs-card {
+    min-width: 380px;
+    min-height: 335px;
+    padding: 0;
+    margin: 5px;
+}
+
+.cs-quicklinks-hover .cs-link {
+    position: relative;
+    background-color: #ccc;
+    background-position: center center;
+    background-size: cover;
+}
+
+.cs-quicklinks-hover .cs-item-title {
+    line-height: 20px;
+    font-size: 25px;
+    padding: 10px;
+    color: #fff;
+    font-weight: bold;
+    
+}
+
+.cs-quicklinks-hover .cs-text {
+    line-height: 20px;
+    font-size: 20px;
+    padding: 10px;
+    color: #fff;
+    margin-bottom: 50px;
+}
+
+.cs-content-node-xs .cs-quicklinks-hover .cs-card {
+    min-width: 340px;
+}
+
+.cs-content-node-lg .cs-quicklinks-hover.cs-flex-row-4 .cs-card,
+.cs-content-node-lg .cs-quicklinks-hover.cs-flex-row-8 .cs-card,
+.cs-content-node-lg .cs-quicklinks-hover.cs-flex-row-12 .cs-card,
+.cs-content-node-lg .cs-quicklinks-hover.cs-flex-row-16 .cs-card,
+.cs-content-node-lg .cs-quicklinks-hover.cs-flex-row-5 .cs-card,
+.cs-content-node-lg .cs-quicklinks-hover.cs-flex-row-10 .cs-card,
+.cs-content-node-lg .cs-quicklinks-hover.cs-flex-row-15 .cs-card,
+.cs-content-node-lg .cs-quicklinks-hover.cs-flex-row-20 .cs-card {
+    min-width: unset;
+    max-width: unset;
+    min-height: unset;
+    flex-basis: calc((35rem - 100%) * 999);
+    flex-grow: 1;
+    aspect-ratio: 1;
+}
+
+.cs-content-node-lg .cs-quicklinks-hover.cs-flex-row-4 .cs-card div,
+.cs-content-node-lg .cs-quicklinks-hover.cs-flex-row-8 .cs-card div,
+.cs-content-node-lg .cs-quicklinks-hover.cs-flex-row-12 .cs-card div,
+.cs-content-node-lg .cs-quicklinks-hover.cs-flex-row-16 .cs-card div,
+.cs-content-node-lg .cs-quicklinks-hover.cs-flex-row-5 .cs-card div,
+.cs-content-node-lg .cs-quicklinks-hover.cs-flex-row-10 .cs-card div,
+.cs-content-node-lg .cs-quicklinks-hover.cs-flex-row-15 .cs-card div,
+.cs-content-node-lg .cs-quicklinks-hover.cs-flex-row-20 .cs-card div {
+    min-height: unset;
+}
+
+.cs-content-node-sm .cs-quicklinks-hover.cs-flex-row-6 .cs-card,
+.cs-content-node-sm .cs-quicklinks-hover.cs-flex-row-4 .cs-card,
+.cs-content-node-sm .cs-quicklinks-hover.cs-flex-row-8 .cs-card,
+.cs-content-node-sm .cs-quicklinks-hover.cs-flex-row-12 .cs-card,
+.cs-content-node-sm .cs-quicklinks-hover.cs-flex-row-16 .cs-card,
+.cs-content-node-sm .cs-quicklinks-hover.cs-flex-row-5 .cs-card,
+.cs-content-node-sm .cs-quicklinks-hover.cs-flex-row-10 .cs-card,
+.cs-content-node-sm .cs-quicklinks-hover.cs-flex-row-15 .cs-card,
+.cs-content-node-sm .cs-quicklinks-hover.cs-flex-row-20 .cs-card,
+.cs-content-node-md .cs-quicklinks-hover.cs-flex-row-4 .cs-card,
+.cs-content-node-md .cs-quicklinks-hover.cs-flex-row-8 .cs-card,
+.cs-content-node-md .cs-quicklinks-hover.cs-flex-row-12 .cs-card,
+.cs-content-node-md .cs-quicklinks-hover.cs-flex-row-16 .cs-card,
+.cs-content-node-md .cs-quicklinks-hover.cs-flex-row-5 .cs-card,
+.cs-content-node-md .cs-quicklinks-hover.cs-flex-row-10 .cs-card,
+.cs-content-node-md .cs-quicklinks-hover.cs-flex-row-15 .cs-card,
+.cs-content-node-md .cs-quicklinks-hover.cs-flex-row-20 .cs-card {
+    min-width: unset;
+    max-width: unset;
+    flex-basis: calc((35rem - 100%) * 999);
+    flex-grow: 1;
+    aspect-ratio: 1;
+}
+
+
+
+@media (min-width: 1px) and (max-width: 1024px) {
+    .cs-quicklinks-hover .cs-description-wrapper {
+        background: rgb(0 0 0 / 50%);
+        opacity: 1;
+    }
+}
+
+
+
+/* Quicklinks - cards */
+.cs-quicklinks-cards .cs-link {
+    position: relative;
+    display: inline-block;
+    background-color: #ccc;
+    background-position: center center;
+    background-size: cover;
+    min-width: 200px;
+    min-height: 200px;
+}
+
+.cs-quicklinks-cards .cs-item-title {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    line-height: 20px;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, .7);
+}
+
+/* Quicklinks - cards list */
+.cs-quicklinks-cardslist .cs-card {
+    max-width: unset;
+    padding: 0px;
+    margin-bottom: 20px;
+}
+
+.cs-quicklinks-cardslist .cs-card-no-title {
+    max-width: 80px;
+}
+
+.cs-quicklinks-cardslist .cs-link {
+    display: block;
+    background-color: #999;
+    height: 80px;
+    padding: 0;
+}
+
+.cs-quicklinks-cardslist .cs-card-thumbnail {
+    display: inline-block;
+    height: 80px;
+    width: 80px;
+    background-position: center center;
+    background-size: cover;
+    vertical-align: middle;
+    font-size: 0px;
+}
+
+.cs-quicklinks-cardslist .cs-item-title {
+    display: inline-block;
+    color: #fff;
+    text-transform: uppercase;
+    vertical-align: middle;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+/* Quicklinks - icnos */
+.cs-quicklinks-icons .cs-link {
+    display: block;
+}
+
+.cs-quicklinks-icons .cs-quicklinks-icon {
+    display: block;
+    text-align: center;
+    font-size: 64px;
+    line-height: 64px;
+    margin-bottom: 10px;
+}
+
+.cs-quicklinks-icons .cs-item-title {
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    line-height: 20px;
+    padding: 10px;
+}
+
+/* Quicklinks - icnos list */
+.cs-quicklinks-iconslist .cs-card {
+    max-width: unset;
+    padding: 0px;
+    margin-bottom: 20px;
+}
+
+.cs-quicklinks-iconslist .cs-link {
+    display: block;
+    background: #888;
+    color: #fff;
+    height: 50px;
+    padding: 10px 15px;
+}
+
+.cs-quicklinks-iconslist .cs-link-no-title {
+    width: 50px;
+    padding: 10px 7px;
+}
+
+.cs-quicklinks-iconslist .cs-quicklinks-icon {
+    display: inline-block;
+    font-size: 30px;
+    line-height: 30px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.cs-quicklinks-iconslist .cs-item-title {
+    display: inline-block;
+    font-size: 20px;
+    line-height: 20px;
+    text-transform: uppercase;
+    vertical-align: middle;
+}
+
+
+/* Quicklinks - images */
+.cs-quicklinks-images .cs-link {
+    display: inline-block;
+    width: 200px;
+}
+
+.cs-quicklinks-images .cs-card-thumbnail {
+    display: block;
+    background-color: #ccc;
+    background-position: center center;
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+}
+
+.cs-quicklinks-images .cs-item-title {
+    display: block;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* Quicklinks - images list */
+.cs-quicklinks-imageslist .cs-card {
+    max-width: unset;
+    padding: 0px;
+    margin-bottom: 20px;
+}
+
+.cs-quicklinks-imageslist .cs-link {
+    display: block;
+    background-color: #999;
+    background-position: center center;
+    background-size: cover;
+    height: 60px;
+}
+
+.cs-quicklinks-imageslist .cs-item-title {
+    height: 100%;
+    display: block;
+    color: #fff;
+    font-size: 24px;
+    line-height: 24px;
+    padding-top: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: rgba(0, 0, 0, .5);
+    text-shadow: 0 0 10px #000;
+}
+
+
+/* Quicklinks - bubbles */
+.cs-quicklinks-bubbles .cs-quicklinks-icon {
+    display: block;
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 10px;
+    vertical-align: middle;
+}
+
+.cs-quicklinks-bubbles .cs-card {
+    width: 165px;
+    height: 165px;
+    background-position: center center;
+    background-clip: border-box;
+    background-size: cover;
+    vertical-align: middle;
+    padding: 10px !important;
+}
+
+.cs-quicklinks-bubbles .cs-item-title {
+    display: block;
+    font-size: 20px;
+    line-height: 20px;
+    text-transform: uppercase;
+    vertical-align: middle;
+}
+
+.cs-quicklinks-bubbles .cs-link {
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    text-align: center;
+    background-color: rgba(0, 0, 0, .5);
+    background-position: center center;
+    background-size: cover;
+    text-shadow: 0 0 5px #000;
+    border-radius: 50%;
+    padding-top: 40px;
+}
+
+.cs-link.cs-quicklinks-bubbles-title-hidden{
+    padding-top: 51px !important;
+}
+
+
+/* Quicklinks - bubbles list */
+.cs-quicklinks-bubbleslist .cs-quicklinks-icon {
+    display: block;
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 10px;
+    vertical-align: middle;
+}
+
+.cs-quicklinks-bubbleslist .cs-card {
+    text-align: center;
+    width: 165px;
+    height: 165px;
+    background-position: center center;
+    background-clip: border-box;
+    background-size: cover;
+    vertical-align: middle;
+    padding: 10px !important;
+}
+
+.cs-quicklinks-bubbleslist .cs-item-title {
+    display: block;
+    font-size: 20px;
+    line-height: 20px;
+    text-transform: uppercase;
+    vertical-align: middle;
+}
+
+.cs-quicklinks-bubbleslist .cs-link {
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    text-align: center;
+    background-color: rgba(0, 0, 0, .5);
+    background-position: center center;
+    background-size: cover;
+    text-shadow: 0 0 5px #000;
+    border-radius: 50%;
+    padding-top: 40px;
+}
+
+/* Audio List */
+
+.cs-audiolist1 .cs-item-title {
+    font-weight: bold;
+}
+
+.cs-audiolist1 tr:first-child,
+.cs-audiolist1 tr:first-child > td,
+.cs-audiolist1 table {
+    border-top: none !important;
+}
+
+.cs-audiolist2 .cs-item-title {
+    font-weight: bold;
+}
+
+.cs-audiolist2 .cs-audiolist-media > * {
+    float: left; 
+    width: 200px;
+    padding: 10px;
+}
+
+.cs-audiolist2 .cs-audiolist-media > *.active {
+
+}
+
+.cs-audiolist1 .cs-caption,
+.cs-audiolist2 .cs-caption {
+    display: inline-block;
+}
+
+.cs-audiolist1 .cs-transcript,
+.cs-audiolist2 .cs-transcript {
+    padding-left: 5px;
+}
+
+/* Panels Widget Styles */
+.cs-panels-tabstrip .tab-content {
+    border: 1px #ddd solid;
+    border-top: 0px transparent solid;
+    padding: 20px;
+}
+.cs-panels-icon {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.cs-panels a .cs-panels-expand-icon::before {
+    content: "\f147" !important; /* fa-minus-square-o */
+}
+
+.cs-panels a.collapsed .cs-panels-expand-icon::before {
+    content: "\f196" !important; /* fa-plus-square-o */
+}
+
+
+
+/* Video Player ------------------------------------------------*/
+a.video-controls-link {
+    opacity: 0;
+    z-index: -1;
+    position: absolute;
+}
+
+a.video-controls-link:focus, a.video-controls-link:active {
+    opacity: unset;
+    z-index: 999;
+    position: unset;
+}
+
+
+/* Directory ----------------------------------------------------*/
+.cs-userlist-photos .cs-card {
+    max-width: 195px;
+}
+
+.cs-userlist-bios .cs-card {
+    max-width: unset;
+    padding: 5px 0 5px 0;
+    display: table;
+    width: 100%
+}
+
+.cs-userlist-bios hr {
+    border-top: 1px solid #C3C3C3;
+}
+
+.cs-userlist-bios .cs-card-thumbnail-wrapper {
+    display: table-cell;
+    width: 125px;
+    height: 125px;
+    vertical-align: top;
+}
+
+.cs-userlist-photos .cs-card-thumbnail,
+.cs-userlist-bios .cs-card-thumbnail {
+    display: block;
+    background-position: center center;
+    background-size: cover;
+    height: 225px;
+    width: 165px;
+    margin-bottom: 0;
+}
+
+.cs-userlist-bios .cs-card-thumbnail {
+    height: 125px;
+    width: 125px;
+}
+
+.cs-userlist-photos .cs-item-title {
+    display: block;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.cs-userlist-photos .cs-directory-details {
+    text-align: center;
+}
+
+.cs-userlist-bios .cs-item-title {
+    font-size: 24px;
+}
+
+.cs-userlist-bios .cs-userlist-details {
+    float: left;
+    display: table-cell;
+    vertical-align: top;
+}
+
+.cs-userlist-bios .cs-userlist-details ul {
+    list-style: none;
+    margin: 0;
+    padding: 0 0 0 10px
+}
+
+.cs-userlist-bios .cs-userlist-bio{
+    margin-top: 5px;
+}
+
+.cs-userlist-photos .cs-subtext,
+.cs-userlist-bios .cs-subtext {
+    display: block;
+    text-align: center;
+    font-size: 14px;
+}
+
+.cs-userlist-bios .cs-subtext {
+    text-align: left;
+    font-size: 16px;
+}
+
+.cs-userlist-bios .cs-item-links {
+    width: 150px;
+    float: right;
+    display: table-cell;
+    vertical-align: top;
+}
+
+.cs-userlist-bios .cs-item-links ul {
+    padding: 0;
+    list-style: none
+}
+
+.cs-userlist-bios .cs-item-links li {
+    padding: 3px;
+}
+.cs-userlist-bios .cs-item-links li:hover{
+    background: #eee;
+}
+
+.cs-userlist-bios .cs-xs-content {
+    display: none;
+}
+
+@media (min-width: 1px) and (max-width: 599px) {
+    .cs-userlist-bios .cs-item-links {
+        float: left;
+        clear: left;
+    }
+    .cs-userlist-bios .cs-userlist-details,
+    .cs-userlist-bios .cs-userlist-details ul {
+        padding: 0;
+    }
+
+    .cs-userlist-bios .cs-xs-content.cs-item-title {
+        display: block;
+    }
+
+    .cs-userlist-bios .cs-item-title {
+        display: none;
+    }
+}
+
+
+/* XCSS -------------------------------------------------------- */
+
+.cs-widget-title,
+.cs-widget-header {
+    padding-bottom: 15px;
+    margin: 0;
+}
+
+.cs-widget-header .cs-widget-title {
+    padding-bottom: 0;
+}
+
+
+.cs-subtext {
+    font-size: 12px; 
+    font-style: italic;
+    color: rgb(57,57,57);
+}
+
+.cs-caption {
+    font-size: 14px;
+    color: #777;
+}
+
+
+
+/* color options */
+.red1 {
+    background-color: #d78f7b;
+    color: #000;
+}
+.red2 {
+    background-color: #e8afa6;
+    color: #000;
+}
+.red3 {
+    background-color: #e9c4c1;
+    color: #000;
+}
+.red4 {
+    background-color: #f0d6d4;
+    color: #000;
+}
+.orange1 {
+    background-color: #d68e57;
+    color: #000;
+}
+.orange2 {
+    background-color: #e2a481;
+    color: #000;
+}
+.orange3 {
+    background-color: #ecba9d;
+    color: #000;
+}
+.orange4 {
+    background-color: #f7dbcd;
+    color: #000;
+}
+.yellow1 {
+    background-color: #ffdd4c;
+    color: #000;
+}
+.yellow2 {
+    background-color: #fee781;
+    color: #000;
+}
+.yellow3 {
+    background-color: #fff0b3;
+    color: #000;
+}
+.yellow4 {
+    background-color: #fef7dd;
+    color: #000;
+}
+.lime1 {
+    background-color: #95bc6c;
+    color: #000;
+}
+.lime2 {
+    background-color: #a9c982;
+    color: #000;
+}
+.lime3 {
+    background-color: #bcd39a;
+    color: #000;
+}
+.lime4 {
+    background-color: #d8e4be;
+    color: #000;
+}
+.green1 {
+    background-color: #78aa7e;
+    color: #000;
+}
+.green2 {
+    background-color: #8cbf91;
+    color: #000;
+}
+.green3 {
+    background-color: #b2d6b3;
+    color: #000;
+}
+.green4 {
+    background-color: #d5ead7;
+    color: #000;
+}
+.blue1 {
+    background-color: #6a9bb9;
+    color: #000;
+}
+.blue2 {
+    background-color: #84b4cc;
+    color: #000;
+}
+.blue3 {
+    background-color: #a2cddd;
+    color: #000;
+}
+.blue4 {
+    background-color: #c3e1ea;
+    color: #000;
+}
+.purple1 {
+    background-color: #a28ebe;
+    color: #000;
+}
+.purple2 {
+    background-color: #b4a4cf;
+    color: #000;
+}
+.purple3 {
+    background-color: #c5bdda;
+    color: #000;
+}
+.purple4 {
+    background-color: #e2dded;
+    color: #000;
+}
+.magenta1 {
+    background-color: #b985bb;
+    color: #000;
+}
+.magenta2 {
+    background-color: #c99ec9;
+    color: #000;
+}
+.magenta3 {
+    background-color: #d7b8d8;
+    color: #000;
+}
+.magenta4 {
+    background-color: #edd8e9;
+    color: #000;
+}

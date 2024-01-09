@@ -1,0 +1,110 @@
+@font-face {
+  font-family: 'schoolinsites';
+  src:
+    url('fonts/schoolinsites.ttf?4uh31j') format('truetype'),
+    url('fonts/schoolinsites.woff?4uh31j') format('woff'),
+    url('fonts/schoolinsites.svg?4uh31j#schoolinsites') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'schoolinsites' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-60-20column:before {
+  content: "\e900";
+}
+.icon-80-10column:before {
+  content: "\e901";
+}
+.icon-column:before {
+  content: "\e902";
+}
+.icon-column1:before {
+  content: "\e903";
+}
+.icon-column2:before {
+  content: "\e904";
+}
+.icon-column3:before {
+  content: "\e905";
+}
+.icon-column4:before {
+  content: "\e906";
+}
+.icon-column5:before {
+  content: "\e907";
+}
+.icon-80column:before {
+  content: "\e908";
+}
+.icon-75column:before {
+  content: "\e909";
+}
+.icon-66column:before {
+  content: "\e90a";
+}
+.icon-33column:before {
+  content: "\e90b";
+}
+.icon-25column:before {
+  content: "\e90c";
+}
+.icon-Announcements:before {
+  content: "\e90d";
+}
+.icon-Assignments:before {
+  content: "\e90e";
+}
+.icon-calendar:before {
+  content: "\e90f";
+}
+.icon-Collapse-Down:before {
+  content: "\e910";
+}
+.icon-Expand-up:before {
+  content: "\e911";
+}
+.icon-file:before {
+  content: "\e912";
+}
+.icon-file-audio:before {
+  content: "\e913";
+}
+.icon-file-image:before {
+  content: "\e914";
+}
+.icon-file-pdf:before {
+  content: "\e915";
+}
+.icon-file-video:before {
+  content: "\e916";
+}
+.icon-folder:before {
+  content: "\e917";
+}
+.icon-folder-open:before {
+  content: "\e918";
+}
+.icon-Navigation:before {
+  content: "\e919";
+}
+.icon-News:before {
+  content: "\e91a";
+}
+.icon-Slideshow:before {
+  content: "\e91b";
+}

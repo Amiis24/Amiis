@@ -1,0 +1,33 @@
+.txtBody {
+	font-family: Tahoma;
+	font-size: 12px;
+}
+.paddingAll {
+	padding: 10px;
+}
+.txtCopyright {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+.txtNavigation {
+	font-family: Tahoma;
+	color: #000000;
+	font-size: 14px;
+	font-weight: bold;
+}
+a {
+	color:black;
+	}
+.bdrAll {
+	border: 1px solid #666666;
+}
+.bdrRight {
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #636563;
+}
+.bdrTop {
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #636563;
+}
