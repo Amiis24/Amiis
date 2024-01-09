@@ -1,0 +1,33 @@
+﻿ul.high_nav
+{
+    list-style: none;
+    z-index: 111;
+}
+
+ul.high_nav li
+{
+    display: inline-block;
+    padding-left:10px;
+    padding-right: 10px;
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-right-color: White;
+    
+}
+
+ul.high_nav li:last-child
+{
+    border-right-style: none;
+}
+
+ul.high_nav li a
+{
+    color: white;
+    display: block;
+    text-decoration: none;
+}
+
+ul.high_nav li a:hover
+{
+    text-decoration: underline;
+}

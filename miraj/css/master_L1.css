@@ -1,0 +1,336 @@
+/*
+    ngjyrat:
+    #0f1f0a - gjelbert e errët
+    #f2f6b2 - verdh çelur (krem)
+*/
+
+*
+{
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+body, input, textarea, button, form, div, td, ul, li, p, a
+{
+    /*'Noto Sans' , 'PT Sans' ,*/
+    font-family: 'Open Sans' , 'HelveticaNeue-Light' , 'Helvetica Neue Light' , 'Helvetica Neue' , Arial, sans-serif;
+    font-size: 14px;
+}
+
+
+#layerslider_wrapper
+{
+    width: 1280px;
+    min-height: 300px;
+    margin: 0px auto 0px auto;
+}
+
+#layerslider
+{
+    width: 1280px;
+    height: auto;
+    margin: 0px auto 0px auto;
+}
+
+#divMenuBanner
+{
+    position: absolute;
+    z-index: 2999;
+    height: 120px;
+    width: 1024px;
+    left: 50%;
+    margin-left: -512px;
+    background-color: rgba(0,0,0, 0.9);
+}
+#divLogoBg
+{
+    background-image: url('../images/logo_bg.png');
+    height: 120px;
+    width: 500px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+#divLogo
+{
+    background-image: url('../images/logo.png');
+    background-repeat: no-repeat;
+    height: 103px;
+    width: 300px;
+    position: relative;
+    top: 10px;
+    left: 20px;
+}
+
+#divLogo a
+{
+    width: 240px;
+    height: 100px;
+    display: block;
+}
+
+
+#divBannerMenuUp
+{
+    height: 23px;
+    width: 700px;
+    position: relative;
+    top: -109px;
+    left: 310px;
+    color: white;
+    text-align: right;
+    overflow: hidden;
+}
+
+#divBannerMenuDown
+{
+    height: 24px;
+    width: auto;
+    position: relative;
+    top: -58px;
+    left: 294px;
+    text-transform: uppercase;
+    color: #f2f6b2;
+    text-align: right;
+    font-size: 16px;
+}
+
+.divTextRight
+{
+    position: relative;
+    background-color: rgba(255, 255, 255, 0);
+    width: 234px;
+    height: 139px;
+    top: 109px;
+    left: 886px;
+    z-index: 1000;
+    color: #f2f6b2;
+    padding: 20px;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.divTextRight_bg
+{
+    position: relative;
+    background-color: #0f1f0a;
+    width: 234px;
+    height: 139px;
+    top: -72px;
+    left: 886px;
+    padding: 20px;
+    z-index: 500;
+}
+
+.divTextLeft
+{
+    position: relative;
+    background-color: rgba(255, 255, 255, 0);
+    color: White;
+    width: 417px;
+    height: 137px;
+    top: -250px;
+    left: 424px;
+    z-index: 1000;
+    padding: 20px;
+    font-size: 15px;
+}
+
+.divTextLeft_bg
+{
+    position: relative;
+    background-color: rgba(15,31,10, 0.7);
+    width: 418px;
+    height: 139px;
+    top: -428px;
+    left: 428px;
+    z-index: 500;
+    padding: 20px;
+}
+
+.imgBG
+{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 0;
+}
+
+
+.imgHeader
+{
+    position: relative;
+    left: 0px;
+    top: 0px;
+    z-index: 0;
+}
+
+#divSliderAcademic
+{
+    width: 1280px;
+    height: auto;
+    margin: 0px auto 0px auto;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    background-image: url('../images/home_down.jpg');
+    padding-top: 50px;
+    text-align: center;
+}
+
+#divSliderAcademic a
+{
+    margin: 15px;
+    padding: 0px 20px 0px 20px;
+    display: inline-block;
+    width: 320px;
+    height: 180px;
+}
+
+#divSliderAcademic img
+{
+    width: 320px;
+    height: 180px;
+}
+
+#divFooter
+{
+    width: 1180px;
+    height: auto;
+    margin: 0px auto 0px auto;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    background-color: #0f1f0a;
+    padding: 50px;
+    text-align: center;
+}
+
+#divFooter hr
+{
+    border-bottom: 3px solid #f2f6b2;
+    height: 1px;
+    width: 900px;
+    margin: 0 auto;
+}
+
+.menu_bottom li
+{
+    display: inline-block;
+}
+
+.menu_bottom li a
+{
+    font-size: 16px;
+    display: inline-block;
+    color: #f2f6b2;
+    padding: 10px;
+}
+
+.menu_bottom li a:hover
+{
+    background-color: #1A3210;
+}
+
+#menu_bottom_small
+{
+    color: White;
+
+}
+
+#menu_bottom_small a
+{
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: White;
+    font-size: 14px;
+}
+
+#menu_bottom_small a:hover
+{
+    text-decoration: underline;
+}
+
+#divContent
+{
+    width: 750px;
+    height: auto;
+    margin: 0px auto 0px auto;
+    border: 1px solid #eee;
+    float: left;
+    background-color: #fefefe;
+}
+
+#divLeftMenu
+{
+    width: 260px;
+    min-height: 700px;
+    float: left;
+    background-color: #f5f5f5; /*     background-image: url('../images/gradient_green.png');     background-position: -700px;     background-repeat: repeat;*/
+}
+
+#divRightMenu
+{
+    width: 260px;
+    height: auto;
+    float: left;
+}
+
+.divQuote
+{
+    position: relative;
+    width: 1280px;
+    height: 50px;
+    top: 400px;
+    left: 0px;
+    z-index: 1500;
+    background-color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+    text-shadow: 1px 1px 3px rgb(0, 0, 0);
+}
+
+
+.divQuote a
+{
+    font-size: 20px;
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.center
+{
+    text-align: center;
+}
+
+#divSocialLinks
+{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 1000;
+    width: 39px;
+    height: 284px;
+}
+#divSocialLinks li
+{
+    padding: 0px;
+    display: inline-block;
+}
+#divSocialLinks li a
+{
+    padding: 2px;
+}
+#divSocialLinks img
+{
+    width: 35px;
+}

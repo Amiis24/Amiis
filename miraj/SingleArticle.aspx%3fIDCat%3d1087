@@ -1,0 +1,426 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    
+    <title>
+        
+    Elementary - 
+        Miraj Islamic School </title>
+
+<meta name="description" content="Miraj Islamic School is a New York based education institution for muslim children" /><meta name="keywords" content="education, islam, primary, school, pre-k, high school, secondary school, junior high, pre school, elementary" /><link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <link href="css/general.css" rel="stylesheet" type="text/css" /><link href="css/master_L1.css" rel="stylesheet" type="text/css" /><link href="menu/Menu.css" rel="stylesheet" type="text/css" /><link href="menu/menu_high.css" rel="stylesheet" type="text/css" /><link href="css/layerslider_skin.css" rel="stylesheet" type="text/css" />
+    
+    
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+
+    <script type="text/javascript">
+
+        $(document).ready(function() {
+
+            // **************** sMenu:
+            //$("ul.subnav").append("<span></span>"); //Only shows drop down trigger when js is enabled - Adds empty span tag after ul.subnav
+
+            $(".parent").hover(function() {
+                //alert("aaa");
+                //Following events are applied to the subnav itself (moving subnav up and down)
+                $(this).find("ul.subnav").slideDown('fast').show(); //Drop down the subnav on click
+
+                $(this).hover(function() {
+                }, function() {
+                    $(this).find("ul.subnav").stop(true, true).slideUp('slow'); //When the mouse hovers out of the subnav, move it back up
+                });
+
+                //Following events are applied to the trigger (Hover events for the trigger)
+            }).hover(function() {
+                $(this).addClass("subhover"); //On hover over, add class "subhover"
+            }, function() {	//On Hover Out
+                $(this).removeClass("subhover"); //On hover out, remove class "subhover"
+            });
+            // **************** sMenu
+
+
+            $("#divLogo1").hover(function() {
+
+                $(this).animate({ opacity: 1, marginLeft: "-=10px" }, 1000);
+
+                $(this).hover(function() {
+                }, function() {
+                    $(this).animate({ opacity: 1, marginLeft: "+=10px" }, 1000);
+                });
+            });
+
+
+            $("#divLogo").hover(function() {
+
+                $(this).filter(':not(:animated)').animate({
+                    marginLeft: '-5px'
+                }, 'slow');
+            },
+            function() {
+                $(this).animate({
+                    marginLeft: '0px'
+                }, 'slow');
+            });
+
+        });
+               
+    </script>
+
+    
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css" />
+    <link href="css/master_L2.css" rel="stylesheet" type="text/css" />
+    <script src="scripts/jquery.cycle.all.latest.js" type="text/javascript"></script>
+    <link href='http://fonts.googleapis.com/css?family=Dosis:200,300,400,500' rel='stylesheet'
+        type='text/css' />
+    <link href='http://fonts.googleapis.com/css?family=Roboto:100' rel='stylesheet' type='text/css' />
+    <script type="text/javascript" language="javascript">
+
+        var kohezgjatja = 7000;
+
+        $(document).ready(function () {
+            $('#divHeaderImage').cycle({
+                // choose your transition type, ex: fade, scrollUp, shuffle, etc...
+                fx: 'fade',
+                speed: 2000,
+                timeout: kohezgjatja,
+                next: '#s3',
+                pause: 1
+            });
+
+        });
+    </script>
+    
+    <link href="FancyTreeMenu/style.css" rel="stylesheet" type="text/css" />
+    <script src="FancyTreeMenu/treeMenu.js" type="text/javascript"></script>
+    <link href="css/master_L3.css" rel="stylesheet" type="text/css" />
+    
+    
+
+<title>
+
+</title></head>
+<body>
+    <form name="aspnetForm" method="post" action="SingleArticle.aspx?IDCat=1087" id="aspnetForm">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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BDEzNzUIQnJvY2h1cmVkAgMPZBYCZg8VAxJTaW5nbGVBcnRpY2xlLmFzcHgEMTM3NglOZXdzcGFwZXJkAgQPZBYCZg8VAxJTaW5nbGVBcnRpY2xlLmFzcHgEMTM3NxRTY2hvb2wgeWVhciBjYWxlbmRhcmQCBQ9kFgJmDxUDElNpbmdsZUFydGljbGUuYXNweAQxMzc4EkNhbGVuZGFyIG9mIGV2ZW50c2QCBg9kFgJmDxUDEVZpZGVvR2FsbGVyeS5hc3B4BDEzNzkNVmlkZW8gR2FsbGVyeWQCBw9kFgJmDxUDEEZpbGVHYWxsZXJ5LmFzcHgEMTQyNA1QaG90byBHYWxsZXJ5ZAIFD2QWBmYPFQEJQVRITEVUSUNTZAIBDw9kDxAWAWYWARYEHwJkHwMFBDEzNTEWAQIDZGQCAw8WAh8BAgMWBmYPZBYCZg8VAxJTaW5nbGVBcnRpY2xlLmFzcHgEMTM4MgZTb2NjZXJkAgEPZBYCZg8VAxJTaW5nbGVBcnRpY2xlLmFzcHgEMTM4MwpCYXNrZXRiYWxsZAICD2QWAmYPFQMSU2luZ2xlQXJ0aWNsZS5hc3B4BDEzODQFQ2x1YnNkAgkPZBYCAgEPZBYCAgEPFgIfAAUKRWxlbWVudGFyeWQCCw9kFggCAQ9kFgICAQ8WAh8ABegCPGltZyBzcmM9IlVwbG9hZGVkRmlsZXMvUGhvdG9zLzE4OTIyLWJhc2tldGJhbGwuanBnIiBhbHQ9IiIgc3R5bGU9ImJvcmRlci13aWR0aDogMHB4OyBib3JkZXItc3R5bGU6IHNvbGlkOyIgLz48aW1nIHNyYz0iVXBsb2FkZWRGaWxlcy9QaG90b3MvMTg5MjMtZnJpZW5kcy5qcGciIGFsdD0iIiBzdHlsZT0iZGlzcGxheTogbm9uZTsgYm9yZGVyLXdpZHRoOiAwcHg7IGJvcmRlci1zdHlsZTogc29saWQ7IiAvPjxpbWcgc3JjPSJVcGxvYWRlZEZpbGVzL1Bob3Rvcy8xODkyNC1raW5kZXJfZ2FydGVuLmpwZyIgYWx0PSIiIHN0eWxlPSJkaXNwbGF5OiBub25lOyBib3JkZXItd2lkdGg6IDBweDsgYm9yZGVyLXN0eWxlOiBzb2xpZDsiIC8+ZAIFD2QWAgIBDxYCHwAFskM8dWw+PGxpPjxzcGFuIGNsYXNzPSdlbXB0eSc+PC9zcGFuPjxhIGhyZWY9IlNpbmdsZUFydGljbGUuYXNweD9JRENhdD0xMTc1IiBjbGFzcz0icGFyZW50Ij5Qcm9ncmFtczwvYT48ZGl2IHN0eWxlPSdkaXNwbGF5OiBub25lOyc+PHVsPjwvdWw+PC9kaXY+PC9saT48bGk+PHNwYW4gY2xhc3M9J2VtcHR5Jz48L3NwYW4+PGEgaHJlZj0iU2luZ2xlQXJ0aWNsZS5hc3B4P0lEQ2F0PTExNzYiIGNsYXNzPSJwYXJlbnQiPlByb2plY3RzPC9hPjxkaXYgc3R5bGU9J2Rpc3BsYXk6IG5vbmU7Jz48dWw+PC91bD48L2Rpdj48L2xpPjxsaT48c3BhbiBjbGFzcz0nZW1wdHknPjwvc3Bhbj48YSBocmVmPSJTaW5nbGVBcnRpY2xlLmFzcHg/SURDYXQ9MTE3NyIgY2xhc3M9InBhcmVudCI+VHJpcHM8L2E+PGRpdiBzdHlsZT0nZGlzcGxheTogbm9uZTsnPjx1bD48L3VsPjwvZGl2PjwvbGk+PGxpPjxzcGFuIGNsYXNzPSdjbG9zZWQnPjwvc3Bhbj48YSBocmVmPSJTaW5nbGVBcnRpY2xlLmFzcHg/SURDYXQ9MTE3OCIgY2xhc3M9InBhcmVudCI+Q291cnNlczwvYT48ZGl2IHN0eWxlPSdkaXNwbGF5OiBub25lOyc+PHVsPjxsaSBjbGFzcz0nYm9sZG1lJz48c3BhbiBjbGFzcz0nY2xvc2VkJz48L3NwYW4+PGEgaHJlZj0iU2luZ2xlQXJ0aWNsZS5hc3B4P0lEQ2F0PTExODciIGNsYXNzPSJwYXJlbnQiPjFzdCBHcmFkZTwvYT48ZGl2IHN0eWxlPSdkaXNwbGF5OiBub25lOyc+PHVsPjxsaSBjbGFzcz0nYm9sZG5vdCc+PHNwYW4gY2xhc3M9J29wZW5lZCc+PC9zcGFuPjxhIGhyZWY9IlNpbmdsZUFydGljbGUuYXNweD9JRENhdD0xMTkwIiBjbGFzcz0icGFyZW50Ij5FbmdsaXNoIExhbmd1YWdlIEFydHM8L2E+PC9saT48bGkgY2xhc3M9J2JvbGRub3QnPjxzcGFuIGNsYXNzPSdvcGVuZWQnPjwvc3Bhbj48YSBocmVmPSJTaW5nbGVBcnRpY2xlLmFzcHg/SURDYXQ9MTE5MSIgY2xhc3M9InBhcmVudCI+TWF0aGVtYXRpY3M8L2E+PC9saT48bGkgY2xhc3M9J2JvbGRub3QnPjxzcGFuIGNsYXNzPSdvcGVuZWQnPjwvc3Bhbj48YSBocmVmPSJTaW5nbGVBcnRpY2xlLmFzcHg/SURDYXQ9MTE5MiIgY2xhc3M9InBhcmVudCI+U2NpZW5jZTwvYT48L2xpPjxsaSBjbGFzcz0nYm9sZG5vdCc+PHNwYW4gY2xhc3M9J29wZW5lZCc+PC9zcGFuPjxhIGhyZWY9IlNpbmdsZUFydGljbGUuYXNweD9JRENhdD0xMTkzIiBjbGFzcz0icGFyZW50Ij5Tb2NpYWwgU3R1ZGllczwvYT48L2xpPjxsaSBjbGFzcz0nYm9sZG5vdCc+PHNwYW4gY2xhc3M9J29wZW5lZCc+PC9zcGFuPjxhIGhyZWY9IlNpbmdsZUFydGljbGUuYXNweD9JRENhdD0xMTk0IiBjbGFzcz0icGFyZW50Ij5Jc2xhbWljIFN0dWRpZXM8L2E+PC9saT48bGkgY2xhc3M9J2JvbGRub3QnPjxzcGFuIGNsYXNzPSdvcGVuZWQnPjwvc3Bhbj48YSBocmVmPSJTaW5nbGVBcnRpY2xlLmFzcHg/SURDYXQ9MTE5NSIgY2xhc3M9InBhcmVudCI+UXVy4oCZYW48L2E+PC9saT48bGkgY2xhc3M9J2JvbGRub3QnPjxzcGFuIGNsYXNzPSdvcGVuZWQnPjwvc3Bhbj48YSBocmVmPSJTaW5nbGVBcnRpY2xlLmFzcHg/SURDYXQ9MTE5NiIgY2xhc3M9InBhcmVudCI+QXJhYmljIExhbmd1YWdlPC9hPjwvbGk+PGxpIGNsYXNzPSdib2xkbm90Jz48c3BhbiBjbGFzcz0nb3BlbmVkJz48L3NwYW4+PGEgaHJlZj0iU2luZ2xlQXJ0aWNsZS5hc3B4P0lEQ2F0PTExOTciIGNsYXNzPSJwYXJlbnQiPkNvbXB1dGVyczwvYT48L2xpPjxsaSBjbGFzcz0nYm9sZG5vdCc+PHNwYW4gY2xhc3M9J29wZW5lZCc+PC9zcGFuPjxhIGhyZWY9IlNpbmdsZUFydGljbGUuYXNweD9JRENhdD0xMTk4IiBjbGFzcz0icGFyZW50Ij5QaHlzaWNhbCBFZHVjYXRpb248L2E+PC9saT48bGkgY2xhc3M9J2JvbGRub3QnPjxzcGFuIGNsYXNzPSdvcGVuZWQnPjwvc3Bhbj48YSBocmVmPSJTaW5nbGVBcnRpY2xlLmFzcHg/SURDYXQ9MTE5OSIgY2xhc3M9InBhcmVudCI+QXJ0PC9hPjwvbGk+PC91bD48L2Rpdj48L2xpPjxsaSBjbGFzcz0nYm9sZG1lJz48c3BhbiBjbGFzcz0nY2xvc2VkJz48L3NwYW4+PGEgaHJlZj0iU2luZ2xlQXJ0aWNsZS5hc3B4P0lEQ2F0PTExODgiIGNsYXNzPSJwYXJlbnQiPjJuZCBHcmFkZTwvYT48ZGl2IHN0eWxlPSdkaXNwbGF5OiBub25lOyc+PHVsPjxsaSBjbGFzcz0nYm9sZG5vdCc+PHNwYW4gY2xhc3M9J29wZW5lZCc+PC9zcGFuPjxhIGhyZWY9IlNpbmdsZUFydGljbGUuYXNweD9JRENhdD0xMjAxIiBjbGFzcz0icGFyZW50Ij5FbmdsaXNoIExhbmd1YWdlIEFydHM8L2E+PC9saT48bGkgY2xhc3M9J2JvbGRub3QnPjxzcGFuIGNsYXNzPSdvcGVuZWQnPjwvc3Bhbj48YSBocmVmPSJTaW5nbGVBcnRpY2xlLmFzcHg/SURDYXQ9MTIwMiIgY2xhc3M9InBhcmVudCI+TWF0aGVtYXRpY3M8L2E+PC9saT48bGkgY2xhc3M9J2JvbGRub3QnPjxzcGFuIGNsYXNzPSdvcGVuZWQnPjwvc3Bhbj48YSBocmVmPSJTaW5nbGVBcnRpY2xlLmFzcHg/SURDYXQ9MTIwMyIgY2xhc3M9InBhcmVudCI+U2NpZW5jZTwvYT48L2xpPjxsaSBjbGFzcz0nYm9sZG5vdCc+PHNwYW4gY2xhc3M9J29wZW5lZCc+PC9zcGFuPjxhIGhyZWY9IlNpbmdsZUFydGljbGUuYXNweD9JRENhdD0xMjA0IiBjbGFzcz0icGFyZW50Ij5Tb2NpYWwgU3R1ZGllczwvYT48L2xpPjxsaSBjbGFzcz0nYm9sZG5vdCc+PHNwYW4gY2xhc3M9J29wZW5lZCc+PC9zcGFuPjxhIGhyZWY9IlNpbmdsZUFydGljbGUuYXNweD9JRENhdD0xMjA1IiBjbGFzcz0icGFyZW50Ij5Jc2xhbWljIFN0dWRpZXM8L2E+PC9saT48bGkgY2xhc3M9J2JvbGRub3QnPjxzcGFuIGNsYXNzPSdvcGVuZWQnPjwvc3Bhbj48YSBocmVmPSJTaW5nbGVBcnRpY2xlLmFzcHg/SURDYXQ9MTIwNiIgY2xhc3M9InBhcmVudCI+UXVy4oCZYW48L2E+PC9saT48bGkgY2xhc3M9J2JvbGRub3QnPjxzcGFuIGNsYXNzPSdvcGVuZWQnPjwvc3Bhbj48YSBocmVmPSJTaW5nbGVBcnRpY2xlLmFzcHg/SURDYXQ9MTIwNyIgY2xhc3M9InBhcmVudCI+QXJhYmljIExhbmd1YWdlPC9hPjwvbGk+PGxpIGNsYXNzPSdib2xkbm90Jz48c3BhbiBjbGFzcz0nb3BlbmVkJz48L3NwYW4+PGEgaHJlZj0iU2luZ2xlQXJ0aWNsZS5hc3B4P0lEQ2F0PTEyMDgiIGNsYXNzPSJwYXJlbnQiPkNvbXB1dGVyczwvYT48L2xpPjxsaSBjbGFzcz0nYm9sZG5vdCc+PHNwYW4gY2xhc3M9J29wZW5lZCc+PC9zcGFuPjxhIGhyZWY9IlNpbmdsZUFydGljbGUuYXNweD9JRENhdD0xMjA5IiBjbGFzcz0icGFyZW50Ij5QaHlzaWNhbCBFZHVjYXRpb248L2E+PC9saT48bGkgY2xhc3M9J2JvbGRub3QnPjxzcGFuIGNsYXNzPSdvcGVuZWQnPjwvc3Bhbj48YSBocmVmPSJTaW5nbGVBcnRpY2xlLmFzcHg/SURDYXQ9MTIxMCIgY2xhc3M9InBhcmVudCI+QXJ0PC9hPjwvbGk+PC91bD48L2Rpdj48L2xpPjxsaSBjbGFzcz0nYm9sZG1lJz48c3BhbiBjbGFzcz0nY2xvc2VkJz48L3NwYW4+PGEgaHJlZj0iU2luZ2xlQXJ0aWNsZS5hc3B4P0lEQ2F0PTEzODciIGNsYXNzPSJwYXJlbnQiPjNyZCBHcmFkZTwvYT48ZGl2IHN0eWxlPSdkaXNwbGF5OiBub25lOyc+PHVsPjxsaSBjbGFzcz0nYm9sZG5vdCc+PHNwYW4gY2xhc3M9J29wZW5lZCc+PC9zcGFuPjxhIGhyZWY9IlNpbmdsZUFydGljbGUuYXNweD9JRENhdD0xMzkxIiBjbGFzcz0icGFyZW50Ij5FbmdsaXNoIExhbmd1YWdlIEFydHM8L2E+PC9saT48bGkgY2xhc3M9J2JvbGRub3QnPjxzcGFuIGNsYXNzPSdvcGVuZWQnPjwvc3Bhbj48YSBocmVmPSJTaW5nbGVBcnRpY2xlLmFzcHg/SURDYXQ9MTM5MiIgY2xhc3M9InBhcmVudCI+TWF0aGVtYXRpY3M8L2E+PC9saT48bGkgY2xhc3M9J2JvbGRub3QnPjxzcGFuIGNsYXNzPSdvcGVuZWQnPjwvc3Bhbj48YSBocmVmPSJTaW5nbGVBcnRpY2xlLmFzcHg/SURDYXQ9MTM5MyIgY2xhc3M9InBhcmVudCI+U2NpZW5jZTwvYT48L2xpPjxsaSBjbGFzcz0nYm9sZG5vdCc+PHNwYW4gY2xhc3M9J29wZW5lZCc+PC9zcGFuPjxhIGhyZWY9IlNpbmdsZUFydGljbGUuYXNweD9JRENhdD0xMzk0IiBjbGFzcz0icGFyZW50Ij5Tb2NpYWwgU3R1ZGllczwvYT48L2xpPjxsaSBjbGFzcz0nYm9sZG5vdCc+PHNwYW4gY2xhc3M9J29wZW5lZCc+PC9zcGFuPjxhIGhyZWY9IlNpbmdsZUFydGljbGUuYXNweD9JRENhdD0xMzk1IiBjbGFzcz0icGFyZW50Ij5Jc2xhbWljIFN0dWRpZXM8L2E+PC9saT48bGkgY2xhc3M9J2JvbGRub3QnPjxzcGFuIGNsYXNzPSdvcGVuZWQnPjwvc3Bhbj48YSBocmVmPSJTaW5nbGVBcnRpY2xlLmFzcHg/SURDYXQ9MTM5NiIgY2xhc3M9InBhcmVudCI+UXVy4oCZYW48L2E+PC9saT48bGkgY2xhc3M9J2JvbGRub3QnPjxzcGFuIGNsYXNzPSdvcGVuZWQnPjwvc3Bhbj48YSBocmVmPSJTaW5nbGVBcnRpY2xlLmFzcHg/SURDYXQ9MTM5NyIgY2xhc3M9InBhcmVudCI+QXJhYmljIExhbmd1YWdlPC9hPjwvbGk+PGxpIGNsYXNzPSdib2xkbm90Jz48c3BhbiBjbGFzcz0nb3BlbmVkJz48L3NwYW4+PGEgaHJlZj0iU2luZ2xlQXJ0aWNsZS5hc3B4P0lEQ2F0PTEzOTgiIGNsYXNzPSJwYXJlbnQiPkNvbXB1dGVyczwvYT48L2xpPjxsaSBjbGFzcz0nYm9sZG5vdCc+PHNwYW4gY2xhc3M9J29wZW5lZCc+PC9zcGFuPjxhIGhyZWY9IlNpbmdsZUFydGljbGUuYXNweD9JRENhdD0xMzk5IiBjbGFzcz0icGFyZW50Ij5QaHlzaWNhbCBFZHVjYXRpb248L2E+PC9saT48bGkgY2xhc3M9J2JvbGRub3QnPjxzcGFuIGNsYXNzPSdvcGVuZWQnPjwvc3Bhbj48YSBocmVmPSJTaW5nbGVBcnRpY2xlLmFzcHg/SURDYXQ9MTQwMCIgY2xhc3M9InBhcmVudCI+QXJ0PC9hPjwvbGk+PC91bD48L2Rpdj48L2xpPjxsaSBjbGFzcz0nYm9sZG1lJz48c3BhbiBjbGFzcz0nY2xvc2VkJz48L3NwYW4+PGEgaHJlZj0iU2luZ2xlQXJ0aWNsZS5hc3B4P0lEQ2F0PTEzODgiIGNsYXNzPSJwYXJlbnQiPjR0aCBHcmFkZTwvYT48ZGl2IHN0eWxlPSdkaXNwbGF5OiBub25lOyc+PHVsPjxsaSBjbGFzcz0nYm9sZG5vdCc+PHNwYW4gY2xhc3M9J29wZW5lZCc+PC9zcGFuPjxhIGhyZWY9IlNpbmdsZUFydGljbGUuYXNweD9JRENhdD0xNDAyIiBjbGFzcz0icGFyZW50Ij5FbmdsaXNoIExhbmd1YWdlIEFydHM8L2E+PC9saT48bGkgY2xhc3M9J2JvbGRub3QnPjxzcGFuIGNsYXNzPSdvcGVuZWQnPjwvc3Bhbj48YSBocmVmPSJTaW5nbGVBcnRpY2xlLmFzcHg/SURDYXQ9MTQwMyIgY2xhc3M9InBhcmVudCI+TWF0aGVtYXRpY3M8L2E+PC9saT48bGkgY2xhc3M9J2JvbGRub3QnPjxzcGFuIGNsYXNzPSdvcGVuZWQnPjwvc3Bhbj48YSBocmVmPSJTaW5nbGVBcnRpY2xlLmFzcHg/SURDYXQ9MTQwNCIgY2xhc3M9InBhcmVudCI+U2NpZW5jZTwvYT48L2xpPjxsaSBjbGFzcz0nYm9sZG5vdCc+PHNwYW4gY2xhc3M9J29wZW5lZCc+PC9zcGFuPjxhIGhyZWY9IlNpbmdsZUFydGljbGUuYXNweD9JRENhdD0xNDA1IiBjbGFzcz0icGFyZW50Ij5Tb2NpYWwgU3R1ZGllczwvYT48L2xpPjxsaSBjbGFzcz0nYm9sZG5vdCc+PHNwYW4gY2xhc3M9J29wZW5lZCc+PC9zcGFuPjxhIGhyZWY9IlNpbmdsZUFydGljbGUuYXNweD9JRENhdD0xNDA2IiBjbGFzcz0icGFyZW50Ij5Jc2xhbWljIFN0dWRpZXM8L2E+PC9saT48bGkgY2xhc3M9J2JvbGRub3QnPjxzcGFuIGNsYXNzPSdvcGVuZWQnPjwvc3Bhbj48YSBocmVmPSJTaW5nbGVBcnRpY2xlLmFzcHg/SURDYXQ9MTQwNyIgY2xhc3M9InBhcmVudCI+UXVy4oCZYW48L2E+PC9saT48bGkgY2xhc3M9J2JvbGRub3QnPjxzcGFuIGNsYXNzPSdvcGVuZWQnPjwvc3Bhbj48YSBocmVmPSJTaW5nbGVBcnRpY2xlLmFzcHg/SURDYXQ9MTQwOCIgY2xhc3M9InBhcmVudCI+QXJhYmljIExhbmd1YWdlPC9hPjwvbGk+PGxpIGNsYXNzPSdib2xkbm90Jz48c3BhbiBjbGFzcz0nb3BlbmVkJz48L3NwYW4+PGEgaHJlZj0iU2luZ2xlQXJ0aWNsZS5hc3B4P0lEQ2F0PTE0MDkiIGNsYXNzPSJwYXJlbnQiPkNvbXB1dGVyczwvYT48L2xpPjxsaSBjbGFzcz0nYm9sZG5vdCc+PHNwYW4gY2xhc3M9J29wZW5lZCc+PC9zcGFuPjxhIGhyZWY9IlNpbmdsZUFydGljbGUuYXNweD9JRENhdD0xNDEwIiBjbGFzcz0icGFyZW50Ij5QaHlzaWNhbCBFZHVjYXRpb248L2E+PC9saT48bGkgY2xhc3M9J2JvbGRub3QnPjxzcGFuIGNsYXNzPSdvcGVuZWQnPjwvc3Bhbj48YSBocmVmPSJTaW5nbGVBcnRpY2xlLmFzcHg/SURDYXQ9MTQxMSIgY2xhc3M9InBhcmVudCI+QXJ0PC9hPjwvbGk+PC91bD48L2Rpdj48L2xpPjxsaSBjbGFzcz0nYm9sZG1lJz48c3BhbiBjbGFzcz0nY2xvc2VkJz48L3NwYW4+PGEgaHJlZj0iU2luZ2xlQXJ0aWNsZS5hc3B4P0lEQ2F0PTEzODkiIGNsYXNzPSJwYXJlbnQiPjV0aCBHcmFkZTwvYT48ZGl2IHN0eWxlPSdkaXNwbGF5OiBub25lOyc+PHVsPjxsaSBjbGFzcz0nYm9sZG5vdCc+PHNwYW4gY2xhc3M9J29wZW5lZCc+PC9zcGFuPjxhIGhyZWY9IlNpbmdsZUFydGljbGUuYXNweD9JRENhdD0xNDEzIiBjbGFzcz0icGFyZW50Ij5FbmdsaXNoIExhbmd1YWdlIEFydHM8L2E+PC9saT48bGkgY2xhc3M9J2JvbGRub3QnPjxzcGFuIGNsYXNzPSdvcGVuZWQnPjwvc3Bhbj48YSBocmVmPSJTaW5nbGVBcnRpY2xlLmFzcHg/SURDYXQ9MTQxNCIgY2xhc3M9InBhcmVudCI+TWF0aGVtYXRpY3M8L2E+PC9saT48bGkgY2xhc3M9J2JvbGRub3QnPjxzcGFuIGNsYXNzPSdvcGVuZWQnPjwvc3Bhbj48YSBocmVmPSJTaW5nbGVBcnRpY2xlLmFzcHg/SURDYXQ9MTQxNSIgY2xhc3M9InBhcmVudCI+U2NpZW5jZTwvYT48L2xpPjxsaSBjbGFzcz0nYm9sZG5vdCc+PHNwYW4gY2xhc3M9J29wZW5lZCc+PC9zcGFuPjxhIGhyZWY9IlNpbmdsZUFydGljbGUuYXNweD9JRENhdD0xNDE2IiBjbGFzcz0icGFyZW50Ij5Tb2NpYWwgU3R1ZGllczwvYT48L2xpPjxsaSBjbGFzcz0nYm9sZG5vdCc+PHNwYW4gY2xhc3M9J29wZW5lZCc+PC9zcGFuPjxhIGhyZWY9IlNpbmdsZUFydGljbGUuYXNweD9JRENhdD0xNDE3IiBjbGFzcz0icGFyZW50Ij5Jc2xhbWljIFN0dWRpZXM8L2E+PC9saT48bGkgY2xhc3M9J2JvbGRub3QnPjxzcGFuIGNsYXNzPSdvcGVuZWQnPjwvc3Bhbj48YSBocmVmPSJTaW5nbGVBcnRpY2xlLmFzcHg/SURDYXQ9MTQxOCIgY2xhc3M9InBhcmVudCI+UXVy4oCZYW48L2E+PC9saT48bGkgY2xhc3M9J2JvbGRub3QnPjxzcGFuIGNsYXNzPSdvcGVuZWQnPjwvc3Bhbj48YSBocmVmPSJTaW5nbGVBcnRpY2xlLmFzcHg/SURDYXQ9MTQxOSIgY2xhc3M9InBhcmVudCI+QXJhYmljIExhbmd1YWdlPC9hPjwvbGk+PGxpIGNsYXNzPSdib2xkbm90Jz48c3BhbiBjbGFzcz0nb3BlbmVkJz48L3NwYW4+PGEgaHJlZj0iU2luZ2xlQXJ0aWNsZS5hc3B4P0lEQ2F0PTE0MjAiIGNsYXNzPSJwYXJlbnQiPkNvbXB1dGVyczwvYT48L2xpPjxsaSBjbGFzcz0nYm9sZG5vdCc+PHNwYW4gY2xhc3M9J29wZW5lZCc+PC9zcGFuPjxhIGhyZWY9IlNpbmdsZUFydGljbGUuYXNweD9JRENhdD0xNDIxIiBjbGFzcz0icGFyZW50Ij5QaHlzaWNhbCBFZHVjYXRpb248L2E+PC9saT48bGkgY2xhc3M9J2JvbGRub3QnPjxzcGFuIGNsYXNzPSdvcGVuZWQnPjwvc3Bhbj48YSBocmVmPSJTaW5nbGVBcnRpY2xlLmFzcHg/SURDYXQ9MTQyMiIgY2xhc3M9InBhcmVudCI+QXJ0PC9hPjwvbGk+PC91bD48L2Rpdj48L2xpPjwvdWw+PC9kaXY+PC9saT48bGk+PHNwYW4gY2xhc3M9J2VtcHR5Jz48L3NwYW4+PGEgaHJlZj0iU2luZ2xlQXJ0aWNsZS5hc3B4P0lEQ2F0PTExNzkiIGNsYXNzPSJwYXJlbnQiPkFmdGVyIHNjaG9vbDwvYT48ZGl2IHN0eWxlPSdkaXNwbGF5OiBub25lOyc+PHVsPjwvdWw+PC9kaXY+PC9saT48bGk+PHNwYW4gY2xhc3M9J2VtcHR5Jz48L3NwYW4+PGEgaHJlZj0iU2luZ2xlQXJ0aWNsZS5hc3B4P0lEQ2F0PTExODAiIGNsYXNzPSJwYXJlbnQiPlN0dWRlbnRzPC9hPjxkaXYgc3R5bGU9J2Rpc3BsYXk6IG5vbmU7Jz48dWw+PC91bD48L2Rpdj48L2xpPjxsaT48c3BhbiBjbGFzcz0nZW1wdHknPjwvc3Bhbj48YSBocmVmPSJTaW5nbGVBcnRpY2xlLmFzcHg/SURDYXQ9MTE4MSIgY2xhc3M9InBhcmVudCI+UGFyZW50czwvYT48ZGl2IHN0eWxlPSdkaXNwbGF5OiBub25lOyc+PHVsPjwvdWw+PC9kaXY+PC9saT48bGk+PHNwYW4gY2xhc3M9J2VtcHR5Jz48L3NwYW4+PGEgaHJlZj0iU2luZ2xlQXJ0aWNsZS5hc3B4P0lEQ2F0PTExODIiIGNsYXNzPSJwYXJlbnQiPkxpbmtzPC9hPjxkaXYgc3R5bGU9J2Rpc3BsYXk6IG5vbmU7Jz48dWw+PC91bD48L2Rpdj48L2xpPjxsaT48c3BhbiBjbGFzcz0nZW1wdHknPjwvc3Bhbj48YSBocmVmPSJTaW5nbGVBcnRpY2xlLmFzcHg/SURDYXQ9MTE4MyIgY2xhc3M9InBhcmVudCI+U3BvcnRzPC9hPjxkaXYgc3R5bGU9J2Rpc3BsYXk6IG5vbmU7Jz48dWw+PC91bD48L2Rpdj48L2xpPjxsaT48c3BhbiBjbGFzcz0nZW1wdHknPjwvc3Bhbj48YSBocmVmPSJTaW5nbGVBcnRpY2xlLmFzcHg/SURDYXQ9MTE4NCIgY2xhc3M9InBhcmVudCI+U29jaWFsPC9hPjxkaXYgc3R5bGU9J2Rpc3BsYXk6IG5vbmU7Jz48dWw+PC91bD48L2Rpdj48L2xpPjxsaT48c3BhbiBjbGFzcz0nZW1wdHknPjwvc3Bhbj48YSBocmVmPSJTaW5nbGVBcnRpY2xlLmFzcHg/SURDYXQ9MTE4NSIgY2xhc3M9InBhcmVudCI+SG9ub3JzPC9hPjxkaXYgc3R5bGU9J2Rpc3BsYXk6IG5vbmU7Jz48dWw+PC91bD48L2Rpdj48L2xpPjwvdWw+ZAIHD2QWAgIBD2QWBAIBDxYCHwAFCkVsZW1lbnRhcnlkAgMPFgIfAAX6EjxoMT5BIGJldHRlciBwbGFjZSBmb3Igb3VyIGNoaWxkcmVuPC9oMT4KVGhlIE1pcmFqIElzbGFtaWMgU2Nob29sIG9mZmVycyBiZXR0ZXIgY29uZGl0aW9ucyBmb3Igc3R1ZHlpbmcgYW5kIGZ1biBmb3Igb3VyIGNoaWxkcmVuLiBFYWNoIG9mIG91ciBjaGlsZHJlbiBpcyBjb25zaWRlcmVkIHNwZWNpYWwuIFRoZSBNaXJhaiBJc2xhbWljIFNjaG9vbCBvZmZlcnMgYmV0dGVyIGNvbmRpdGlvbnMgZm9yIHN0dWR5aW5nIGFuZCBmdW4gZm9yIG91ciBjaGlsZHJlbi4gRWFjaCBvZiBvdXIgY2hpbGRyZW4gaXMgY29uc2lkZXJlZCBzcGVjaWFsLiZuYnNwO1RoZSBNaXJhaiBJc2xhbWljIFNjaG9vbCBvZmZlcnMgYmV0dGVyIGNvbmRpdGlvbnMgZm9yIHN0dWR5aW5nIGFuZCBmdW4gZm9yIG91ciBjaGlsZHJlbi4gRWFjaCBvZiBvdXIgY2hpbGRyZW4gaXMgY29uc2lkZXJlZCBzcGVjaWFsLiZuYnNwO1RoZSBNaXJhaiBJc2xhbWljIFNjaG9vbCBvZmZlcnMgYmV0dGVyIGNvbmRpdGlvbnMgZm9yIHN0dWR5aW5nIGFuZCBmdW4gZm9yIG91ciBjaGlsZHJlbi4gRWFjaCBvZiBvdXIgY2hpbGRyZW4gaXMgY29uc2lkZXJlZCBzcGVjaWFsLiZuYnNwO1RoZSBNaXJhaiBJc2xhbWljIFNjaG9vbCBvZmZlcnMgYmV0dGVyIGNvbmRpdGlvbnMgZm9yIHN0dWR5aW5nIGFuZCBmdW4gZm9yIG91ciBjaGlsZHJlbi4gRWFjaCBvZiBvdXIgY2hpbGRyZW4gaXMgY29uc2lkZXJlZCBzcGVjaWFsLiZuYnNwO1RoZSBNaXJhaiBJc2xhbWljIFNjaG9vbCBvZmZlcnMgYmV0dGVyIGNvbmRpdGlvbnMgZm9yIHN0dWR5aW5nIGFuZCBmdW4gZm9yIG91ciBjaGlsZHJlbi4gRWFjaCBvZiBvdXIgY2hpbGRyZW4gaXMgY29uc2lkZXJlZCBzcGVjaWFsLgo8aDI+RnVuIGFuZCBvcmRlciAtIGluIG9uZSBwbGFjZTwvaDI+ClRoZSBNaXJhaiBJc2xhbWljIFNjaG9vbCBvZmZlcnMgYmV0dGVyIGNvbmRpdGlvbnMgZm9yIHN0dWR5aW5nIGFuZCBmdW4gZm9yIG91ciBjaGlsZHJlbi4gRWFjaCBvZiBvdXIgY2hpbGRyZW4gaXMgY29uc2lkZXJlZCBzcGVjaWFsLiZuYnNwO1RoZSBNaXJhaiBJc2xhbWljIFNjaG9vbCBvZmZlcnMgYmV0dGVyIGNvbmRpdGlvbnMgZm9yIHN0dWR5aW5nIGFuZCBmdW4gZm9yIG91ciBjaGlsZHJlbi4gRWFjaCBvZiBvdXIgY2hpbGRyZW4gaXMgY29uc2lkZXJlZCBzcGVjaWFsLiZuYnNwO1RoZSBNaXJhaiBJc2xhbWljIFNjaG9vbCBvZmZlcnMgYmV0dGVyIGNvbmRpdGlvbnMgZm9yIHN0dWR5aW5nIGFuZCBmdW4gZm9yIG91ciBjaGlsZHJlbi4gRWFjaCBvZiBvdXIgY2hpbGRyZW4gaXMgY29uc2lkZXJlZCBzcGVjaWFsLgo8aDI+T25seSBoYWxhbCBmb29kIGluIG91ciBwcmVtaXNlczwvaDI+CjxpbWcgYWx0PSIiIHNyYz0iLi4vbWlyYWovVXBsb2FkZWRGaWxlcy9QMjI5MDAwMy0zNTBweC5qcGciIHN0eWxlPSJ3aWR0aDogMzUwcHg7IGhlaWdodDogMjYycHg7IGZsb2F0OiByaWdodDsiIC8+VGhlIE1pcmFqIElzbGFtaWMgU2Nob29sIG9mZmVycyBiZXR0ZXIgY29uZGl0aW9ucyBmb3Igc3R1ZHlpbmcgYW5kIGZ1biBmb3Igb3VyIGNoaWxkcmVuLiBFYWNoIG9mIG91ciBjaGlsZHJlbiBpcyBjb25zaWRlcmVkIHNwZWNpYWwuJm5ic3A7VGhlIE1pcmFqIElzbGFtaWMgU2Nob29sIG9mZmVycyBiZXR0ZXIgY29uZGl0aW9ucyBmb3Igc3R1ZHlpbmcgYW5kIGZ1biBmb3Igb3VyIGNoaWxkcmVuLiBFYWNoIG9mIG91ciBjaGlsZHJlbiBpcyBjb25zaWRlcmVkIHNwZWNpYWwuJm5ic3A7VGhlIE1pcmFqIElzbGFtaWMgU2Nob29sIG9mZmVycyBiZXR0ZXIgY29uZGl0aW9ucyBmb3Igc3R1ZHlpbmcgYW5kIGZ1biBmb3Igb3VyIGNoaWxkcmVuLiBFYWNoIG9mIG91ciBjaGlsZHJlbiBpcyBjb25zaWRlcmVkIHNwZWNpYWwuJm5ic3A7VGhlIE1pcmFqIElzbGFtaWMgU2Nob29sIG9mZmVycyBiZXR0ZXIgY29uZGl0aW9ucyBmb3Igc3R1ZHlpbmcgYW5kIGZ1biBmb3Igb3VyIGNoaWxkcmVuLiBFYWNoIG9mIG91ciBjaGlsZHJlbiBpcyBjb25zaWRlcmVkIHNwZWNpYWwuJm5ic3A7VGhlIE1pcmFqIElzbGFtaWMgU2Nob29sIG9mZmVycyBiZXR0ZXIgY29uZGl0aW9ucyBmb3Igc3R1ZHlpbmcgYW5kIGZ1biBmb3Igb3VyIGNoaWxkcmVuLiBFYWNoIG9mIG91ciBjaGlsZHJlbiBpcyBjb25zaWRlcmVkIHNwZWNpYWwuJm5ic3A7VGhlIE1pcmFqIElzbGFtaWMgU2Nob29sIG9mZmVycyBiZXR0ZXIgY29uZGl0aW9ucyBmb3Igc3R1ZHlpbmcgYW5kIGZ1biBmb3Igb3VyIGNoaWxkcmVuLiBFYWNoIG9mIG91ciBjaGlsZHJlbiBpcyBjb25zaWRlcmVkIHNwZWNpYWwuJm5ic3A7VGhlIE1pcmFqIElzbGFtaWMgU2Nob29sIG9mZmVycyBiZXR0ZXIgY29uZGl0aW9ucyBmb3Igc3R1ZHlpbmcgYW5kIGZ1biBmb3Igb3VyIGNoaWxkcmVuLiBFYWNoIG9mIG91ciBjaGlsZHJlbiBpcyBjb25zaWRlcmVkIHNwZWNpYWwuJm5ic3A7ZAILDxYCHwAFnAE8YSBocmVmPSdHYWxsZXJ5LmFzcHg/c3RyTm9kZT1FbGVtZW50YXJ5Jz48aW1nIHNyYz0naW1hZ2VzL1Bob3RvR2FsbGVyeS5wbmcnIHdpZHRoPScyNDAnIGFsdD0nJyAvPjxiciAvPjxiPkVsZW1lbnRhcnk8L2I+PGJyIC8+UGhvdG8gR2FsbGVyeTwvYT48YnIgLz48YnIgLz5kAg0PFgIfAAWVAzxsaT4NCiAgPGEgaHJlZj0iU2luZ2xlQXJ0aWNsZS5hc3B4P0lEQ2F0PTEzNDUiPkFCT1VUIFVTPC9hPg0KPC9saT48bGk+DQogIDxhIGhyZWY9IlNpbmdsZUFydGljbGUuYXNweD9JRENhdD0xMzQ2Ij5BRE1JU1NJT05TIDwvYT4NCjwvbGk+PGxpPg0KICA8YSBocmVmPSJTaW5nbGVBcnRpY2xlLmFzcHg/SURDYXQ9MTM0NyI+QUNBREVNSUNTIDwvYT4NCjwvbGk+PGxpPg0KICA8YSBocmVmPSJTaW5nbGVBcnRpY2xlLmFzcHg/SURDYXQ9MTM0OCI+UFJPR1JBTVM8L2E+DQo8L2xpPjxsaT4NCiAgPGEgaHJlZj0iU2luZ2xlQXJ0aWNsZS5hc3B4P0lEQ2F0PTEzNTAiPk1FRElBPC9hPg0KPC9saT48bGk+DQogIDxhIGhyZWY9IlNpbmdsZUFydGljbGUuYXNweD9JRENhdD0xMzUxIj5BVEhMRVRJQ1M8L2E+DQo8L2xpPmQCDw8WAh8ABcgCPGxpPg0KICA8YSBocmVmPSJTaW5nbGVBcnRpY2xlLmFzcHg/SURDYXQ9MTM1MyI+RG9uYXRpb25zPC9hPg0KPC9saT48bGk+DQogIDxhIGhyZWY9Imh0dHA6Ly93d3cubWlyYWpzY2hvb2wub3JnL3dlYm1haWw/SURDYXQ9MzA5OSI+V2ViTWFpbDwvYT4NCjwvbGk+PGxpPg0KICA8YSBocmVmPSJBZG1pbi5hc3B4P0lEQ2F0PTMwOTgiPkFkbWluPC9hPg0KPC9saT48bGk+DQogIDxhIGhyZWY9IlNpbmdsZUFydGljbGUuYXNweD9JRENhdD0xMzU0Ij5GQVE8L2E+DQo8L2xpPjxsaT4NCiAgPGEgaHJlZj0iQ29udGFjdC5hc3B4P0lEQ2F0PTMwOTciPkNvbnRhY3Q8L2E+DQo8L2xpPmRkhkDBikpPAWquJnaIjNhumLHwjZY=" />
+
+    <div id="divSocialLinks">
+        <ul>
+            <li><a href="https://www.youtube.com/channel/miraj" target="_blank">
+                <img src="images/icons/youtube.png" border="0" alt="">
+            </a></li>
+            <li><a href="https://www.facebook.com/MirajIslamicSchool" target="_blank">
+                <img src="images/icons/facebook.png" border="0" alt="">
+            </a></li>
+            <li><a href="https://plus.google.com/107473884272370425881/about?gl=US&hl=en-US"
+                target="_blank">
+                <img src="images/icons/googleplus.png" border="0" alt="">
+            </a></li>
+            <li><a href="http://www.Twitter.com/MirajIslamicSchool" target="_blank">
+                <img src="images/icons/twitter.png" border="0" alt="">
+            </a></li>
+        </ul>
+    </div>
+    <div id="divMenuBanner">
+        <div id="divLogoBg">
+            <div id="divLogo">
+                <a href="."></a>
+            </div>
+        </div>
+        <div id="divBannerMenuUp">
+            <ul class="high_nav">
+                <li><a href=".">
+                    <img src="images/icons/home.gif" height="14px" alt="" /></a></li>
+                
+                <li>
+  <a href="SingleArticle.aspx?IDCat=1353">Donations</a>
+</li><li>
+  <a href="http://www.mirajschool.org/webmail?IDCat=3099">WebMail</a>
+</li><li>
+  <a href="Admin.aspx?IDCat=3098">Admin</a>
+</li><li>
+  <a href="SingleArticle.aspx?IDCat=1354">FAQ</a>
+</li><li>
+  <a href="Contact.aspx?IDCat=3097">Contact</a>
+</li>
+                <li><a href="Contact.aspx?IDCat=3097">
+                    <img src="images/tel.png" height="12px" alt="" />&nbsp;&nbsp;718-816-6161 </a>
+                </li>
+            </ul>
+        </div>
+        <div id="divBannerMenuDown">
+            <ul class="topnav">
+                <li><a href="default.aspx">HOME</a></li>
+                
+                
+                        <li class="parent"><a href="#">
+                            ABOUT US
+                            ></a>
+                            <ul class="subnav">
+                                
+                                
+                                        <li><a href="SingleArticle.aspx?IDCat=1356">
+                                            Welcome</a></li>
+                                    
+                                        <li><a href="SingleArticle.aspx?IDCat=1357">
+                                            Principals Message</a></li>
+                                    
+                                        <li><a href="SingleArticle.aspx?IDCat=1358">
+                                            Our Vision</a></li>
+                                    
+                                        <li><a href="SingleArticle.aspx?IDCat=1359">
+                                            Our Mission</a></li>
+                                    
+                                        <li><a href="SingleArticle.aspx?IDCat=1360">
+                                            History</a></li>
+                                    
+                                        <li><a href="SingleArticle.aspx?IDCat=1428">
+                                            Awards</a></li>
+                                    
+                                        <li><a href="SingleArticle.aspx?IDCat=1370">
+                                            Directors</a></li>
+                                    
+                                        <li><a href="SingleArticle.aspx?IDCat=1371">
+                                            Faculty Staff</a></li>
+                                    
+                            </ul>
+                        </li>
+                    
+                        <li class="parent"><a href="#">
+                            ADMISSIONS 
+                            ></a>
+                            <ul class="subnav">
+                                
+                                
+                                        <li><a href="SingleArticle.aspx?IDCat=1362">
+                                            Admission Process</a></li>
+                                    
+                                        <li><a href="SingleArticle.aspx?IDCat=1363">
+                                            Tuition & Fees</a></li>
+                                    
+                                        <li><a href="SingleArticle.aspx?IDCat=1364">
+                                            New Students & Family</a></li>
+                                    
+                            </ul>
+                        </li>
+                    
+                        <li class="parent"><a href="#">
+                            ACADEMICS 
+                            ></a>
+                            <ul class="subnav">
+                                
+                                
+                                        <li><a href="SingleArticle.aspx?IDCat=1086">
+                                            Pre School</a></li>
+                                    
+                                        <li><a href="SingleArticle.aspx?IDCat=1087">
+                                            Elementary</a></li>
+                                    
+                                        <li><a href="SingleArticle.aspx?IDCat=1088">
+                                            Junior High</a></li>
+                                    
+                                        <li><a href="SingleArticle.aspx?IDCat=1089">
+                                            High School</a></li>
+                                    
+                                        <li><a href="SingleArticle.aspx?IDCat=1090">
+                                            College</a></li>
+                                    
+                            </ul>
+                        </li>
+                    
+                        <li class="parent"><a href="#">
+                            PROGRAMS
+                            ></a>
+                            <ul class="subnav">
+                                
+                                
+                                        <li><a href="SingleArticle.aspx?IDCat=1366">
+                                            Lunch Program</a></li>
+                                    
+                                        <li><a href="SingleArticle.aspx?IDCat=1367">
+                                            After School</a></li>
+                                    
+                                        <li><a href="SingleArticle.aspx?IDCat=1368">
+                                            Clubs</a></li>
+                                    
+                            </ul>
+                        </li>
+                    
+                        <li class="parent"><a href="#">
+                            MEDIA
+                            ></a>
+                            <ul class="subnav">
+                                
+                                
+                                        <li><a href="ShowArticle.aspx?IDCat=1373">
+                                            Announcements</a></li>
+                                    
+                                        <li><a href="ShowArticle.aspx?IDCat=1374">
+                                            School news</a></li>
+                                    
+                                        <li><a href="SingleArticle.aspx?IDCat=1375">
+                                            Brochure</a></li>
+                                    
+                                        <li><a href="SingleArticle.aspx?IDCat=1376">
+                                            Newspaper</a></li>
+                                    
+                                        <li><a href="SingleArticle.aspx?IDCat=1377">
+                                            School year calendar</a></li>
+                                    
+                                        <li><a href="SingleArticle.aspx?IDCat=1378">
+                                            Calendar of events</a></li>
+                                    
+                                        <li><a href="VideoGallery.aspx?IDCat=1379">
+                                            Video Gallery</a></li>
+                                    
+                                        <li><a href="FileGallery.aspx?IDCat=1424">
+                                            Photo Gallery</a></li>
+                                    
+                            </ul>
+                        </li>
+                    
+                        <li class="parent"><a href="#">
+                            ATHLETICS
+                            ></a>
+                            <ul class="subnav">
+                                
+                                
+                                        <li><a href="SingleArticle.aspx?IDCat=1382">
+                                            Soccer</a></li>
+                                    
+                                        <li><a href="SingleArticle.aspx?IDCat=1383">
+                                            Basketball</a></li>
+                                    
+                                        <li><a href="SingleArticle.aspx?IDCat=1384">
+                                            Clubs</a></li>
+                                    
+                            </ul>
+                        </li>
+                    
+                
+            </ul>
+        </div>
+    </div>
+    
+    
+    <div id="divTitle">
+        
+    
+    Elementary
+
+
+    </div>
+    <div id="divContentWrapper_L1">
+        
+    <div id="divHeader">
+        <div id="divHeaderImage">
+            
+    <img src="UploadedFiles/Photos/18922-basketball.jpg" alt="" style="border-width: 0px; border-style: solid;" /><img src="UploadedFiles/Photos/18923-friends.jpg" alt="" style="display: none; border-width: 0px; border-style: solid;" /><img src="UploadedFiles/Photos/18924-kinder_garten.jpg" alt="" style="display: none; border-width: 0px; border-style: solid;" />
+
+        </div>
+    </div>
+    
+
+    <div id="divContentWrapper_L2">
+        <div id="divLeftMenu">
+            
+    <div id="treeMenu">
+        <ul><li><span class='empty'></span><a href="SingleArticle.aspx?IDCat=1175" class="parent">Programs</a><div style='display: none;'><ul></ul></div></li><li><span class='empty'></span><a href="SingleArticle.aspx?IDCat=1176" class="parent">Projects</a><div style='display: none;'><ul></ul></div></li><li><span class='empty'></span><a href="SingleArticle.aspx?IDCat=1177" class="parent">Trips</a><div style='display: none;'><ul></ul></div></li><li><span class='closed'></span><a href="SingleArticle.aspx?IDCat=1178" class="parent">Courses</a><div style='display: none;'><ul><li class='boldme'><span class='closed'></span><a href="SingleArticle.aspx?IDCat=1187" class="parent">1st Grade</a><div style='display: none;'><ul><li class='boldnot'><span class='opened'></span><a href="SingleArticle.aspx?IDCat=1190" class="parent">English Language Arts</a></li><li class='boldnot'><span class='opened'></span><a href="SingleArticle.aspx?IDCat=1191" class="parent">Mathematics</a></li><li class='boldnot'><span class='opened'></span><a href="SingleArticle.aspx?IDCat=1192" class="parent">Science</a></li><li class='boldnot'><span class='opened'></span><a href="SingleArticle.aspx?IDCat=1193" class="parent">Social Studies</a></li><li class='boldnot'><span class='opened'></span><a href="SingleArticle.aspx?IDCat=1194" class="parent">Islamic Studies</a></li><li class='boldnot'><span class='opened'></span><a href="SingleArticle.aspx?IDCat=1195" class="parent">Qur’an</a></li><li class='boldnot'><span class='opened'></span><a href="SingleArticle.aspx?IDCat=1196" class="parent">Arabic Language</a></li><li class='boldnot'><span class='opened'></span><a href="SingleArticle.aspx?IDCat=1197" class="parent">Computers</a></li><li class='boldnot'><span class='opened'></span><a href="SingleArticle.aspx?IDCat=1198" class="parent">Physical Education</a></li><li class='boldnot'><span class='opened'></span><a href="SingleArticle.aspx?IDCat=1199" class="parent">Art</a></li></ul></div></li><li class='boldme'><span class='closed'></span><a href="SingleArticle.aspx?IDCat=1188" class="parent">2nd Grade</a><div style='display: none;'><ul><li class='boldnot'><span class='opened'></span><a href="SingleArticle.aspx?IDCat=1201" class="parent">English Language Arts</a></li><li class='boldnot'><span class='opened'></span><a href="SingleArticle.aspx?IDCat=1202" class="parent">Mathematics</a></li><li class='boldnot'><span class='opened'></span><a href="SingleArticle.aspx?IDCat=1203" class="parent">Science</a></li><li class='boldnot'><span class='opened'></span><a href="SingleArticle.aspx?IDCat=1204" class="parent">Social Studies</a></li><li class='boldnot'><span class='opened'></span><a href="SingleArticle.aspx?IDCat=1205" class="parent">Islamic Studies</a></li><li class='boldnot'><span class='opened'></span><a href="SingleArticle.aspx?IDCat=1206" class="parent">Qur’an</a></li><li class='boldnot'><span class='opened'></span><a href="SingleArticle.aspx?IDCat=1207" class="parent">Arabic Language</a></li><li class='boldnot'><span class='opened'></span><a href="SingleArticle.aspx?IDCat=1208" class="parent">Computers</a></li><li class='boldnot'><span class='opened'></span><a href="SingleArticle.aspx?IDCat=1209" class="parent">Physical Education</a></li><li class='boldnot'><span class='opened'></span><a href="SingleArticle.aspx?IDCat=1210" class="parent">Art</a></li></ul></div></li><li class='boldme'><span class='closed'></span><a href="SingleArticle.aspx?IDCat=1387" class="parent">3rd Grade</a><div style='display: none;'><ul><li class='boldnot'><span class='opened'></span><a href="SingleArticle.aspx?IDCat=1391" class="parent">English Language Arts</a></li><li class='boldnot'><span class='opened'></span><a href="SingleArticle.aspx?IDCat=1392" class="parent">Mathematics</a></li><li class='boldnot'><span class='opened'></span><a href="SingleArticle.aspx?IDCat=1393" class="parent">Science</a></li><li class='boldnot'><span class='opened'></span><a href="SingleArticle.aspx?IDCat=1394" class="parent">Social Studies</a></li><li class='boldnot'><span class='opened'></span><a href="SingleArticle.aspx?IDCat=1395" class="parent">Islamic Studies</a></li><li class='boldnot'><span class='opened'></span><a href="SingleArticle.aspx?IDCat=1396" class="parent">Qur’an</a></li><li class='boldnot'><span class='opened'></span><a href="SingleArticle.aspx?IDCat=1397" class="parent">Arabic Language</a></li><li class='boldnot'><span class='opened'></span><a href="SingleArticle.aspx?IDCat=1398" class="parent">Computers</a></li><li class='boldnot'><span class='opened'></span><a href="SingleArticle.aspx?IDCat=1399" class="parent">Physical Education</a></li><li class='boldnot'><span class='opened'></span><a href="SingleArticle.aspx?IDCat=1400" class="parent">Art</a></li></ul></div></li><li class='boldme'><span class='closed'></span><a href="SingleArticle.aspx?IDCat=1388" class="parent">4th Grade</a><div style='display: none;'><ul><li class='boldnot'><span class='opened'></span><a href="SingleArticle.aspx?IDCat=1402" class="parent">English Language Arts</a></li><li class='boldnot'><span class='opened'></span><a href="SingleArticle.aspx?IDCat=1403" class="parent">Mathematics</a></li><li class='boldnot'><span class='opened'></span><a href="SingleArticle.aspx?IDCat=1404" class="parent">Science</a></li><li class='boldnot'><span class='opened'></span><a href="SingleArticle.aspx?IDCat=1405" class="parent">Social Studies</a></li><li class='boldnot'><span class='opened'></span><a href="SingleArticle.aspx?IDCat=1406" class="parent">Islamic Studies</a></li><li class='boldnot'><span class='opened'></span><a href="SingleArticle.aspx?IDCat=1407" class="parent">Qur’an</a></li><li class='boldnot'><span class='opened'></span><a href="SingleArticle.aspx?IDCat=1408" class="parent">Arabic Language</a></li><li class='boldnot'><span class='opened'></span><a href="SingleArticle.aspx?IDCat=1409" class="parent">Computers</a></li><li class='boldnot'><span class='opened'></span><a href="SingleArticle.aspx?IDCat=1410" class="parent">Physical Education</a></li><li class='boldnot'><span class='opened'></span><a href="SingleArticle.aspx?IDCat=1411" class="parent">Art</a></li></ul></div></li><li class='boldme'><span class='closed'></span><a href="SingleArticle.aspx?IDCat=1389" class="parent">5th Grade</a><div style='display: none;'><ul><li class='boldnot'><span class='opened'></span><a href="SingleArticle.aspx?IDCat=1413" class="parent">English Language Arts</a></li><li class='boldnot'><span class='opened'></span><a href="SingleArticle.aspx?IDCat=1414" class="parent">Mathematics</a></li><li class='boldnot'><span class='opened'></span><a href="SingleArticle.aspx?IDCat=1415" class="parent">Science</a></li><li class='boldnot'><span class='opened'></span><a href="SingleArticle.aspx?IDCat=1416" class="parent">Social Studies</a></li><li class='boldnot'><span class='opened'></span><a href="SingleArticle.aspx?IDCat=1417" class="parent">Islamic Studies</a></li><li class='boldnot'><span class='opened'></span><a href="SingleArticle.aspx?IDCat=1418" class="parent">Qur’an</a></li><li class='boldnot'><span class='opened'></span><a href="SingleArticle.aspx?IDCat=1419" class="parent">Arabic Language</a></li><li class='boldnot'><span class='opened'></span><a href="SingleArticle.aspx?IDCat=1420" class="parent">Computers</a></li><li class='boldnot'><span class='opened'></span><a href="SingleArticle.aspx?IDCat=1421" class="parent">Physical Education</a></li><li class='boldnot'><span class='opened'></span><a href="SingleArticle.aspx?IDCat=1422" class="parent">Art</a></li></ul></div></li></ul></div></li><li><span class='empty'></span><a href="SingleArticle.aspx?IDCat=1179" class="parent">After school</a><div style='display: none;'><ul></ul></div></li><li><span class='empty'></span><a href="SingleArticle.aspx?IDCat=1180" class="parent">Students</a><div style='display: none;'><ul></ul></div></li><li><span class='empty'></span><a href="SingleArticle.aspx?IDCat=1181" class="parent">Parents</a><div style='display: none;'><ul></ul></div></li><li><span class='empty'></span><a href="SingleArticle.aspx?IDCat=1182" class="parent">Links</a><div style='display: none;'><ul></ul></div></li><li><span class='empty'></span><a href="SingleArticle.aspx?IDCat=1183" class="parent">Sports</a><div style='display: none;'><ul></ul></div></li><li><span class='empty'></span><a href="SingleArticle.aspx?IDCat=1184" class="parent">Social</a><div style='display: none;'><ul></ul></div></li><li><span class='empty'></span><a href="SingleArticle.aspx?IDCat=1185" class="parent">Honors</a><div style='display: none;'><ul></ul></div></li></ul>
+    </div>
+
+            <div style="text-align: center; margin-top: 20px;">
+                <img src="images/ornament2.png" alt="" /></div>
+        </div>
+        <div id="divContent">
+            
+    
+    <div id="CatTitle">
+        Elementary
+    </div>
+    <div style="padding: 70px">
+        <div style="text-align: justify">
+            <h1>A better place for our children</h1>
+The Miraj Islamic School offers better conditions for studying and fun for our children. Each of our children is considered special. The Miraj Islamic School offers better conditions for studying and fun for our children. Each of our children is considered special.&nbsp;The Miraj Islamic School offers better conditions for studying and fun for our children. Each of our children is considered special.&nbsp;The Miraj Islamic School offers better conditions for studying and fun for our children. Each of our children is considered special.&nbsp;The Miraj Islamic School offers better conditions for studying and fun for our children. Each of our children is considered special.&nbsp;The Miraj Islamic School offers better conditions for studying and fun for our children. Each of our children is considered special.
+<h2>Fun and order - in one place</h2>
+The Miraj Islamic School offers better conditions for studying and fun for our children. Each of our children is considered special.&nbsp;The Miraj Islamic School offers better conditions for studying and fun for our children. Each of our children is considered special.&nbsp;The Miraj Islamic School offers better conditions for studying and fun for our children. Each of our children is considered special.
+<h2>Only halal food in our premises</h2>
+<img alt="" src="../miraj/UploadedFiles/P2290003-350px.jpg" style="width: 350px; height: 262px; float: right;" />The Miraj Islamic School offers better conditions for studying and fun for our children. Each of our children is considered special.&nbsp;The Miraj Islamic School offers better conditions for studying and fun for our children. Each of our children is considered special.&nbsp;The Miraj Islamic School offers better conditions for studying and fun for our children. Each of our children is considered special.&nbsp;The Miraj Islamic School offers better conditions for studying and fun for our children. Each of our children is considered special.&nbsp;The Miraj Islamic School offers better conditions for studying and fun for our children. Each of our children is considered special.&nbsp;The Miraj Islamic School offers better conditions for studying and fun for our children. Each of our children is considered special.&nbsp;The Miraj Islamic School offers better conditions for studying and fun for our children. Each of our children is considered special.&nbsp;
+        </div>
+    </div>
+
+
+        </div>
+        <div id="divRightMenu">
+            
+
+            <div id="divQRCode">
+                <br />
+                <a href='Gallery.aspx?strNode=Elementary'><img src='images/PhotoGallery.png' width='240' alt='' /><br /><b>Elementary</b><br />Photo Gallery</a><br /><br />
+                <br />
+                <a href="VideoGallery.aspx?IDCat=1353">
+                    <img src="images/VideoGallery.png" alt="" width="240" /><br />
+                    <br />
+                    Video Gallery </a>
+                <br />
+                <br />
+                <br />
+                Scan this code
+                <br />
+                with your smartphone<br />
+                <br />
+                <img src="images/CRcode-mirajschool_org.png" alt="" width="100" /><br />
+                QR Code<br />
+            </div>
+        </div>
+    </div>
+
+    </div>
+    <div id="divFooter">
+        <img src="images/ornament1.png" alt="" />
+        <br />
+        <br />
+        <br />
+        <hr />
+        <ul class="menu_bottom">
+            <li>
+  <a href="SingleArticle.aspx?IDCat=1345">ABOUT US</a>
+</li><li>
+  <a href="SingleArticle.aspx?IDCat=1346">ADMISSIONS </a>
+</li><li>
+  <a href="SingleArticle.aspx?IDCat=1347">ACADEMICS </a>
+</li><li>
+  <a href="SingleArticle.aspx?IDCat=1348">PROGRAMS</a>
+</li><li>
+  <a href="SingleArticle.aspx?IDCat=1350">MEDIA</a>
+</li><li>
+  <a href="SingleArticle.aspx?IDCat=1351">ATHLETICS</a>
+</li>
+            
+        </ul>
+        <div id="menu_bottom_small">
+            
+            <ul class="high_nav">
+                <li><a href=".">
+                    <img src="images/icons/home.gif" height="14px" alt="" /></a></li>
+                <li>
+  <a href="SingleArticle.aspx?IDCat=1353">Donations</a>
+</li><li>
+  <a href="http://www.mirajschool.org/webmail?IDCat=3099">WebMail</a>
+</li><li>
+  <a href="Admin.aspx?IDCat=3098">Admin</a>
+</li><li>
+  <a href="SingleArticle.aspx?IDCat=1354">FAQ</a>
+</li><li>
+  <a href="Contact.aspx?IDCat=3097">Contact</a>
+</li>
+                <li><a href="Contact.aspx?IDCat=3097">
+                    <img src="images/tel.png" height="12px" alt="" />&nbsp;&nbsp;718-816-6161 </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    </form>
+</body>
+</html>

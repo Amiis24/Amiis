@@ -1,0 +1,421 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    
+    <title>
+        
+    College - 
+        Miraj Islamic School </title>
+
+<meta name="description" content="Miraj Islamic School is a New York based education institution for muslim children" /><meta name="keywords" content="education, islam, primary, school, pre-k, high school, secondary school, junior high, pre school, elementary" /><link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <link href="css/general.css" rel="stylesheet" type="text/css" /><link href="css/master_L1.css" rel="stylesheet" type="text/css" /><link href="menu/Menu.css" rel="stylesheet" type="text/css" /><link href="menu/menu_high.css" rel="stylesheet" type="text/css" /><link href="css/layerslider_skin.css" rel="stylesheet" type="text/css" />
+    
+    
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+
+    <script type="text/javascript">
+
+        $(document).ready(function() {
+
+            // **************** sMenu:
+            //$("ul.subnav").append("<span></span>"); //Only shows drop down trigger when js is enabled - Adds empty span tag after ul.subnav
+
+            $(".parent").hover(function() {
+                //alert("aaa");
+                //Following events are applied to the subnav itself (moving subnav up and down)
+                $(this).find("ul.subnav").slideDown('fast').show(); //Drop down the subnav on click
+
+                $(this).hover(function() {
+                }, function() {
+                    $(this).find("ul.subnav").stop(true, true).slideUp('slow'); //When the mouse hovers out of the subnav, move it back up
+                });
+
+                //Following events are applied to the trigger (Hover events for the trigger)
+            }).hover(function() {
+                $(this).addClass("subhover"); //On hover over, add class "subhover"
+            }, function() {	//On Hover Out
+                $(this).removeClass("subhover"); //On hover out, remove class "subhover"
+            });
+            // **************** sMenu
+
+
+            $("#divLogo1").hover(function() {
+
+                $(this).animate({ opacity: 1, marginLeft: "-=10px" }, 1000);
+
+                $(this).hover(function() {
+                }, function() {
+                    $(this).animate({ opacity: 1, marginLeft: "+=10px" }, 1000);
+                });
+            });
+
+
+            $("#divLogo").hover(function() {
+
+                $(this).filter(':not(:animated)').animate({
+                    marginLeft: '-5px'
+                }, 'slow');
+            },
+            function() {
+                $(this).animate({
+                    marginLeft: '0px'
+                }, 'slow');
+            });
+
+        });
+               
+    </script>
+
+    
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css" />
+    <link href="css/master_L2.css" rel="stylesheet" type="text/css" />
+    <script src="scripts/jquery.cycle.all.latest.js" type="text/javascript"></script>
+    <link href='http://fonts.googleapis.com/css?family=Dosis:200,300,400,500' rel='stylesheet'
+        type='text/css' />
+    <link href='http://fonts.googleapis.com/css?family=Roboto:100' rel='stylesheet' type='text/css' />
+    <script type="text/javascript" language="javascript">
+
+        var kohezgjatja = 7000;
+
+        $(document).ready(function () {
+            $('#divHeaderImage').cycle({
+                // choose your transition type, ex: fade, scrollUp, shuffle, etc...
+                fx: 'fade',
+                speed: 2000,
+                timeout: kohezgjatja,
+                next: '#s3',
+                pause: 1
+            });
+
+        });
+    </script>
+    
+    <link href="FancyTreeMenu/style.css" rel="stylesheet" type="text/css" />
+    <script src="FancyTreeMenu/treeMenu.js" type="text/javascript"></script>
+    <link href="css/master_L3.css" rel="stylesheet" type="text/css" />
+    
+    
+
+<title>
+
+</title></head>
+<body>
+    <form name="aspnetForm" method="post" action="SingleArticle.aspx?IDCat=1090" id="aspnetForm">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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NzUIQnJvY2h1cmVkAgMPZBYCZg8VAxJTaW5nbGVBcnRpY2xlLmFzcHgEMTM3NglOZXdzcGFwZXJkAgQPZBYCZg8VAxJTaW5nbGVBcnRpY2xlLmFzcHgEMTM3NxRTY2hvb2wgeWVhciBjYWxlbmRhcmQCBQ9kFgJmDxUDElNpbmdsZUFydGljbGUuYXNweAQxMzc4EkNhbGVuZGFyIG9mIGV2ZW50c2QCBg9kFgJmDxUDEVZpZGVvR2FsbGVyeS5hc3B4BDEzNzkNVmlkZW8gR2FsbGVyeWQCBw9kFgJmDxUDEEZpbGVHYWxsZXJ5LmFzcHgEMTQyNA1QaG90byBHYWxsZXJ5ZAIFD2QWBmYPFQEJQVRITEVUSUNTZAIBDw9kDxAWAWYWARYEHwJkHwMFBDEzNTEWAQIDZGQCAw8WAh8BAgMWBmYPZBYCZg8VAxJTaW5nbGVBcnRpY2xlLmFzcHgEMTM4MgZTb2NjZXJkAgEPZBYCZg8VAxJTaW5nbGVBcnRpY2xlLmFzcHgEMTM4MwpCYXNrZXRiYWxsZAICD2QWAmYPFQMSU2luZ2xlQXJ0aWNsZS5hc3B4BDEzODQFQ2x1YnNkAgkPZBYCAgEPZBYCAgEPFgIfAAUHQ29sbGVnZWQCCw9kFggCAQ9kFgICAQ8WAh8ABfsBPGltZyBzcmM9IlVwbG9hZGVkRmlsZXMvUGhvdG9zLzE4OTg1LWFpY2NfbWFzamlkMS5qcGciIGFsdD0iIiBzdHlsZT0iYm9yZGVyLXdpZHRoOiAwcHg7IGJvcmRlci1zdHlsZTogc29saWQ7IiAvPjxpbWcgc3JjPSJVcGxvYWRlZEZpbGVzL1Bob3Rvcy8xODk4Ni1haWNjX21hc2ppZDEtZnV0dXJlLXBsYW4uanBnIiBhbHQ9IiIgc3R5bGU9ImRpc3BsYXk6IG5vbmU7IGJvcmRlci13aWR0aDogMHB4OyBib3JkZXItc3R5bGU6IHNvbGlkOyIgLz5kAgUPZBYCAgEPFgIfAAWeATx1bD48bGk+PHNwYW4gY2xhc3M9J2VtcHR5Jz48L3NwYW4+PGEgaHJlZj0iU2luZ2xlQXJ0aWNsZS5hc3B4P0lEQ2F0PTE0MjkiIGNsYXNzPSJwYXJlbnQiPkZ1dHVyZSBQbGFuPC9hPjxkaXYgc3R5bGU9J2Rpc3BsYXk6IG5vbmU7Jz48dWw+PC91bD48L2Rpdj48L2xpPjwvdWw+ZAIHD2QWAgIBD2QWBAIBDxYCHwAFB0NvbGxlZ2VkAgMPFgIfAAUFRmFsc2VkAgsPFgIfAAWWATxhIGhyZWY9J0dhbGxlcnkuYXNweD9zdHJOb2RlPUNvbGxlZ2UnPjxpbWcgc3JjPSdpbWFnZXMvUGhvdG9HYWxsZXJ5LnBuZycgd2lkdGg9JzI0MCcgYWx0PScnIC8+PGJyIC8+PGI+Q29sbGVnZTwvYj48YnIgLz5QaG90byBHYWxsZXJ5PC9hPjxiciAvPjxiciAvPmQCDQ8WAh8ABZUDPGxpPg0KICA8YSBocmVmPSJTaW5nbGVBcnRpY2xlLmFzcHg/SURDYXQ9MTM0NSI+QUJPVVQgVVM8L2E+DQo8L2xpPjxsaT4NCiAgPGEgaHJlZj0iU2luZ2xlQXJ0aWNsZS5hc3B4P0lEQ2F0PTEzNDYiPkFETUlTU0lPTlMgPC9hPg0KPC9saT48bGk+DQogIDxhIGhyZWY9IlNpbmdsZUFydGljbGUuYXNweD9JRENhdD0xMzQ3Ij5BQ0FERU1JQ1MgPC9hPg0KPC9saT48bGk+DQogIDxhIGhyZWY9IlNpbmdsZUFydGljbGUuYXNweD9JRENhdD0xMzQ4Ij5QUk9HUkFNUzwvYT4NCjwvbGk+PGxpPg0KICA8YSBocmVmPSJTaW5nbGVBcnRpY2xlLmFzcHg/SURDYXQ9MTM1MCI+TUVESUE8L2E+DQo8L2xpPjxsaT4NCiAgPGEgaHJlZj0iU2luZ2xlQXJ0aWNsZS5hc3B4P0lEQ2F0PTEzNTEiPkFUSExFVElDUzwvYT4NCjwvbGk+ZAIPDxYCHwAFyAI8bGk+DQogIDxhIGhyZWY9IlNpbmdsZUFydGljbGUuYXNweD9JRENhdD0xMzUzIj5Eb25hdGlvbnM8L2E+DQo8L2xpPjxsaT4NCiAgPGEgaHJlZj0iaHR0cDovL3d3dy5taXJhanNjaG9vbC5vcmcvd2VibWFpbD9JRENhdD0zMDk5Ij5XZWJNYWlsPC9hPg0KPC9saT48bGk+DQogIDxhIGhyZWY9IkFkbWluLmFzcHg/SURDYXQ9MzA5OCI+QWRtaW48L2E+DQo8L2xpPjxsaT4NCiAgPGEgaHJlZj0iU2luZ2xlQXJ0aWNsZS5hc3B4P0lEQ2F0PTEzNTQiPkZBUTwvYT4NCjwvbGk+PGxpPg0KICA8YSBocmVmPSJDb250YWN0LmFzcHg/SURDYXQ9MzA5NyI+Q29udGFjdDwvYT4NCjwvbGk+ZGSmGJnaVN6rLLwI2DhKRAljmAKxAA==" />
+
+    <div id="divSocialLinks">
+        <ul>
+            <li><a href="https://www.youtube.com/channel/miraj" target="_blank">
+                <img src="images/icons/youtube.png" border="0" alt="">
+            </a></li>
+            <li><a href="https://www.facebook.com/MirajIslamicSchool" target="_blank">
+                <img src="images/icons/facebook.png" border="0" alt="">
+            </a></li>
+            <li><a href="https://plus.google.com/107473884272370425881/about?gl=US&hl=en-US"
+                target="_blank">
+                <img src="images/icons/googleplus.png" border="0" alt="">
+            </a></li>
+            <li><a href="http://www.Twitter.com/MirajIslamicSchool" target="_blank">
+                <img src="images/icons/twitter.png" border="0" alt="">
+            </a></li>
+        </ul>
+    </div>
+    <div id="divMenuBanner">
+        <div id="divLogoBg">
+            <div id="divLogo">
+                <a href="."></a>
+            </div>
+        </div>
+        <div id="divBannerMenuUp">
+            <ul class="high_nav">
+                <li><a href=".">
+                    <img src="images/icons/home.gif" height="14px" alt="" /></a></li>
+                
+                <li>
+  <a href="SingleArticle.aspx?IDCat=1353">Donations</a>
+</li><li>
+  <a href="http://www.mirajschool.org/webmail?IDCat=3099">WebMail</a>
+</li><li>
+  <a href="Admin.aspx?IDCat=3098">Admin</a>
+</li><li>
+  <a href="SingleArticle.aspx?IDCat=1354">FAQ</a>
+</li><li>
+  <a href="Contact.aspx?IDCat=3097">Contact</a>
+</li>
+                <li><a href="Contact.aspx?IDCat=3097">
+                    <img src="images/tel.png" height="12px" alt="" />&nbsp;&nbsp;718-816-6161 </a>
+                </li>
+            </ul>
+        </div>
+        <div id="divBannerMenuDown">
+            <ul class="topnav">
+                <li><a href="default.aspx">HOME</a></li>
+                
+                
+                        <li class="parent"><a href="#">
+                            ABOUT US
+                            ></a>
+                            <ul class="subnav">
+                                
+                                
+                                        <li><a href="SingleArticle.aspx?IDCat=1356">
+                                            Welcome</a></li>
+                                    
+                                        <li><a href="SingleArticle.aspx?IDCat=1357">
+                                            Principals Message</a></li>
+                                    
+                                        <li><a href="SingleArticle.aspx?IDCat=1358">
+                                            Our Vision</a></li>
+                                    
+                                        <li><a href="SingleArticle.aspx?IDCat=1359">
+                                            Our Mission</a></li>
+                                    
+                                        <li><a href="SingleArticle.aspx?IDCat=1360">
+                                            History</a></li>
+                                    
+                                        <li><a href="SingleArticle.aspx?IDCat=1428">
+                                            Awards</a></li>
+                                    
+                                        <li><a href="SingleArticle.aspx?IDCat=1370">
+                                            Directors</a></li>
+                                    
+                                        <li><a href="SingleArticle.aspx?IDCat=1371">
+                                            Faculty Staff</a></li>
+                                    
+                            </ul>
+                        </li>
+                    
+                        <li class="parent"><a href="#">
+                            ADMISSIONS 
+                            ></a>
+                            <ul class="subnav">
+                                
+                                
+                                        <li><a href="SingleArticle.aspx?IDCat=1362">
+                                            Admission Process</a></li>
+                                    
+                                        <li><a href="SingleArticle.aspx?IDCat=1363">
+                                            Tuition & Fees</a></li>
+                                    
+                                        <li><a href="SingleArticle.aspx?IDCat=1364">
+                                            New Students & Family</a></li>
+                                    
+                            </ul>
+                        </li>
+                    
+                        <li class="parent"><a href="#">
+                            ACADEMICS 
+                            ></a>
+                            <ul class="subnav">
+                                
+                                
+                                        <li><a href="SingleArticle.aspx?IDCat=1086">
+                                            Pre School</a></li>
+                                    
+                                        <li><a href="SingleArticle.aspx?IDCat=1087">
+                                            Elementary</a></li>
+                                    
+                                        <li><a href="SingleArticle.aspx?IDCat=1088">
+                                            Junior High</a></li>
+                                    
+                                        <li><a href="SingleArticle.aspx?IDCat=1089">
+                                            High School</a></li>
+                                    
+                                        <li><a href="SingleArticle.aspx?IDCat=1090">
+                                            College</a></li>
+                                    
+                            </ul>
+                        </li>
+                    
+                        <li class="parent"><a href="#">
+                            PROGRAMS
+                            ></a>
+                            <ul class="subnav">
+                                
+                                
+                                        <li><a href="SingleArticle.aspx?IDCat=1366">
+                                            Lunch Program</a></li>
+                                    
+                                        <li><a href="SingleArticle.aspx?IDCat=1367">
+                                            After School</a></li>
+                                    
+                                        <li><a href="SingleArticle.aspx?IDCat=1368">
+                                            Clubs</a></li>
+                                    
+                            </ul>
+                        </li>
+                    
+                        <li class="parent"><a href="#">
+                            MEDIA
+                            ></a>
+                            <ul class="subnav">
+                                
+                                
+                                        <li><a href="ShowArticle.aspx?IDCat=1373">
+                                            Announcements</a></li>
+                                    
+                                        <li><a href="ShowArticle.aspx?IDCat=1374">
+                                            School news</a></li>
+                                    
+                                        <li><a href="SingleArticle.aspx?IDCat=1375">
+                                            Brochure</a></li>
+                                    
+                                        <li><a href="SingleArticle.aspx?IDCat=1376">
+                                            Newspaper</a></li>
+                                    
+                                        <li><a href="SingleArticle.aspx?IDCat=1377">
+                                            School year calendar</a></li>
+                                    
+                                        <li><a href="SingleArticle.aspx?IDCat=1378">
+                                            Calendar of events</a></li>
+                                    
+                                        <li><a href="VideoGallery.aspx?IDCat=1379">
+                                            Video Gallery</a></li>
+                                    
+                                        <li><a href="FileGallery.aspx?IDCat=1424">
+                                            Photo Gallery</a></li>
+                                    
+                            </ul>
+                        </li>
+                    
+                        <li class="parent"><a href="#">
+                            ATHLETICS
+                            ></a>
+                            <ul class="subnav">
+                                
+                                
+                                        <li><a href="SingleArticle.aspx?IDCat=1382">
+                                            Soccer</a></li>
+                                    
+                                        <li><a href="SingleArticle.aspx?IDCat=1383">
+                                            Basketball</a></li>
+                                    
+                                        <li><a href="SingleArticle.aspx?IDCat=1384">
+                                            Clubs</a></li>
+                                    
+                            </ul>
+                        </li>
+                    
+                
+            </ul>
+        </div>
+    </div>
+    
+    
+    <div id="divTitle">
+        
+    
+    College
+
+
+    </div>
+    <div id="divContentWrapper_L1">
+        
+    <div id="divHeader">
+        <div id="divHeaderImage">
+            
+    <img src="UploadedFiles/Photos/18985-aicc_masjid1.jpg" alt="" style="border-width: 0px; border-style: solid;" /><img src="UploadedFiles/Photos/18986-aicc_masjid1-future-plan.jpg" alt="" style="display: none; border-width: 0px; border-style: solid;" />
+
+        </div>
+    </div>
+    
+
+    <div id="divContentWrapper_L2">
+        <div id="divLeftMenu">
+            
+    <div id="treeMenu">
+        <ul><li><span class='empty'></span><a href="SingleArticle.aspx?IDCat=1429" class="parent">Future Plan</a><div style='display: none;'><ul></ul></div></li></ul>
+    </div>
+
+            <div style="text-align: center; margin-top: 20px;">
+                <img src="images/ornament2.png" alt="" /></div>
+        </div>
+        <div id="divContent">
+            
+    
+    <div id="CatTitle">
+        College
+    </div>
+    <div style="padding: 70px">
+        <div style="text-align: justify">
+            False
+        </div>
+    </div>
+
+
+        </div>
+        <div id="divRightMenu">
+            
+
+            <div id="divQRCode">
+                <br />
+                <a href='Gallery.aspx?strNode=College'><img src='images/PhotoGallery.png' width='240' alt='' /><br /><b>College</b><br />Photo Gallery</a><br /><br />
+                <br />
+                <a href="VideoGallery.aspx?IDCat=1353">
+                    <img src="images/VideoGallery.png" alt="" width="240" /><br />
+                    <br />
+                    Video Gallery </a>
+                <br />
+                <br />
+                <br />
+                Scan this code
+                <br />
+                with your smartphone<br />
+                <br />
+                <img src="images/CRcode-mirajschool_org.png" alt="" width="100" /><br />
+                QR Code<br />
+            </div>
+        </div>
+    </div>
+
+    </div>
+    <div id="divFooter">
+        <img src="images/ornament1.png" alt="" />
+        <br />
+        <br />
+        <br />
+        <hr />
+        <ul class="menu_bottom">
+            <li>
+  <a href="SingleArticle.aspx?IDCat=1345">ABOUT US</a>
+</li><li>
+  <a href="SingleArticle.aspx?IDCat=1346">ADMISSIONS </a>
+</li><li>
+  <a href="SingleArticle.aspx?IDCat=1347">ACADEMICS </a>
+</li><li>
+  <a href="SingleArticle.aspx?IDCat=1348">PROGRAMS</a>
+</li><li>
+  <a href="SingleArticle.aspx?IDCat=1350">MEDIA</a>
+</li><li>
+  <a href="SingleArticle.aspx?IDCat=1351">ATHLETICS</a>
+</li>
+            
+        </ul>
+        <div id="menu_bottom_small">
+            
+            <ul class="high_nav">
+                <li><a href=".">
+                    <img src="images/icons/home.gif" height="14px" alt="" /></a></li>
+                <li>
+  <a href="SingleArticle.aspx?IDCat=1353">Donations</a>
+</li><li>
+  <a href="http://www.mirajschool.org/webmail?IDCat=3099">WebMail</a>
+</li><li>
+  <a href="Admin.aspx?IDCat=3098">Admin</a>
+</li><li>
+  <a href="SingleArticle.aspx?IDCat=1354">FAQ</a>
+</li><li>
+  <a href="Contact.aspx?IDCat=3097">Contact</a>
+</li>
+                <li><a href="Contact.aspx?IDCat=3097">
+                    <img src="images/tel.png" height="12px" alt="" />&nbsp;&nbsp;718-816-6161 </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    </form>
+</body>
+</html>

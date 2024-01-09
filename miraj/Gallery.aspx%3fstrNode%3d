@@ -1,0 +1,144 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>
+	Gallery
+</title>
+    <script src="swfobject.js" type="text/javascript"></script>
+    <link href="css/gallery.css" rel="stylesheet" type="text/css" /></head>
+<body>
+    <form name="form1" method="post" action="Gallery.aspx?strNode=" id="form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTExNTA2NTg0MzEPZBYCAgMPZBYEZg88KwAJAgAPFgIeDU5ldmVyRXhwYW5kZWRkZAgUKwAIBRswOjAsMDoxLDA6MiwwOjMsMDo0LDA6NSwwOjYUKwACFgQeBFRleHQFB0NvbGxlZ2UeCEV4cGFuZGVkZ2QUKwACFgQfAQUKRWxlbWVudGFyeR8CZxQrAAQFCzA6MCwwOjEsMDoyFCsAAhYEHwEFFzIwMTMtMDMtMTIgU2NpZW5jZSBmYWlyHwJnZBQrAAIWBB8BBRkyMDEzLTAzLTEyIFNjaWVuY2UgZmFpciAyHwJnZBQrAAIWBB8BBRsyMDEzLTAzLTIwIE1pcmFqIGNsYXNzcm9vbXMfAmdkFCsAAhYEHwEFC0hpZ2ggU2Nob29sHwJnZBQrAAIWBB8BBQtKdW5pb3IgSGlnaB8CZ2QUKwACFgQfAQUUTWlyYWogSXNsYW1pYyBTY2hvb2wfAmdkFCsAAhYEHwEFClByZSBTY2hvb2wfAmdkFCsAAhYEHwEFClRoZSBDZW50ZXIfAmdkZAIBDxYCHwFlZBgBBR5fX0NvbnRyb2xzUmVxdWlyZVBvc3RCYWNrS2V5X18WAQUJVHJlZVZpZXcxK7X4iu0tathr6/ZYyoOSTiAZ2rI=" />
+
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEWCwK7xdTrDwLukdb2BgKApcmpDALrp9rlAwKrkP/0AwK4odm9CAKiqfzaDwLUsbeuDAL0xZrzBgK5h4bcBAKKrsGsCCJl2+N5HQbALjJFAYA/+Q+uMKxG" />
+    <div id="Link">
+        
+        <a href="javascript: history.go(-1)"><< Back</a>
+    </div>
+    <div id="Kategorite">
+        <a href="#TreeView1_SkipLink"><img alt="Skip Navigation Links." src="/WebResource.axd?d=CHCCaf6Q02dAbWP8p4N4k3HwTpusl3hhLpRG0hG3kCc7eD4Nf96JcqucaBm70t98vVoYwzgSVTVKz5DHwtMi-L9WqUQ1&amp;t=635279068304840886" width="0" height="0" border="0" /></a><div id="TreeView1">
+	<table cellpadding="0" cellspacing="0">
+		<tr>
+			<td><a href="javascript:__doPostBack('TreeView1','sCollege')" id="TreeView1n0i" tabindex="-1"><img src="/WebResource.axd?d=7eoJhG-PKpYj4jQJK8vHJkOdbX49XZi7yp9al9PJPMPEimkOBAkcGTHvQKaQEW4U7KMhOQ66dmK1USVORzZx8RRmP_aaDinIwicv9TgmuzLET6rr0&amp;t=635279068304840886" alt="" border="0" /></a></td><td nowrap="nowrap"><a href="javascript:__doPostBack('TreeView1','sCollege')" id="TreeView1n0"><font face="Tahoma" color="Black" size="2">College</font></a></td>
+		</tr><tr>
+			<td></td>
+		</tr>
+	</table><table cellpadding="0" cellspacing="0">
+		<tr>
+			<td></td>
+		</tr><tr>
+			<td><a href="javascript:__doPostBack('TreeView1','sElementary')" id="TreeView1n1i" tabindex="-1"><img src="/WebResource.axd?d=87hVQs5RShs28Ks1ry59m1gatMPVbOsd2_9nUJxP0cC9qUh7-PLkODQxFdJXKgTV5H8UmWeSs8gEmle-8bgIyPnKIeu0dyO-NrjUSnkd8e67kuIl0&amp;t=635279068304840886" alt="" border="0" /></a></td><td nowrap="nowrap"><a href="javascript:__doPostBack('TreeView1','sElementary')" id="TreeView1n1"><font face="Tahoma" color="Black" size="2">Elementary</font></a></td>
+		</tr><tr>
+			<td></td>
+		</tr>
+	</table><table cellpadding="0" cellspacing="0">
+		<tr>
+			<td></td>
+		</tr><tr>
+			<td><table width="20">
+				<tr>
+					<td></td>
+				</tr>
+			</table></td><td><a href="javascript:__doPostBack('TreeView1','sElementary\\2013-03-12 Science fair')" id="TreeView1n2i" tabindex="-1"><img src="/WebResource.axd?d=7eoJhG-PKpYj4jQJK8vHJkOdbX49XZi7yp9al9PJPMPEimkOBAkcGTHvQKaQEW4U7KMhOQ66dmK1USVORzZx8RRmP_aaDinIwicv9TgmuzLET6rr0&amp;t=635279068304840886" alt="" border="0" /></a></td><td nowrap="nowrap"><a href="javascript:__doPostBack('TreeView1','sElementary\\2013-03-12 Science fair')" id="TreeView1n2"><font face="Tahoma" color="Black" size="2">2013-03-12 Science fair</font></a></td>
+		</tr><tr>
+			<td></td>
+		</tr>
+	</table><table cellpadding="0" cellspacing="0">
+		<tr>
+			<td></td>
+		</tr><tr>
+			<td><table width="20">
+				<tr>
+					<td></td>
+				</tr>
+			</table></td><td><a href="javascript:__doPostBack('TreeView1','sElementary\\2013-03-12 Science fair 2')" id="TreeView1n3i" tabindex="-1"><img src="/WebResource.axd?d=7eoJhG-PKpYj4jQJK8vHJkOdbX49XZi7yp9al9PJPMPEimkOBAkcGTHvQKaQEW4U7KMhOQ66dmK1USVORzZx8RRmP_aaDinIwicv9TgmuzLET6rr0&amp;t=635279068304840886" alt="" border="0" /></a></td><td nowrap="nowrap"><a href="javascript:__doPostBack('TreeView1','sElementary\\2013-03-12 Science fair 2')" id="TreeView1n3"><font face="Tahoma" color="Black" size="2">2013-03-12 Science fair 2</font></a></td>
+		</tr><tr>
+			<td></td>
+		</tr>
+	</table><table cellpadding="0" cellspacing="0">
+		<tr>
+			<td></td>
+		</tr><tr>
+			<td><table width="20">
+				<tr>
+					<td></td>
+				</tr>
+			</table></td><td><a href="javascript:__doPostBack('TreeView1','sElementary\\2013-03-20 Miraj classrooms')" id="TreeView1n4i" tabindex="-1"><img src="/WebResource.axd?d=7eoJhG-PKpYj4jQJK8vHJkOdbX49XZi7yp9al9PJPMPEimkOBAkcGTHvQKaQEW4U7KMhOQ66dmK1USVORzZx8RRmP_aaDinIwicv9TgmuzLET6rr0&amp;t=635279068304840886" alt="" border="0" /></a></td><td nowrap="nowrap"><a href="javascript:__doPostBack('TreeView1','sElementary\\2013-03-20 Miraj classrooms')" id="TreeView1n4"><font face="Tahoma" color="Black" size="2">2013-03-20 Miraj classrooms</font></a></td>
+		</tr><tr>
+			<td></td>
+		</tr>
+	</table><table cellpadding="0" cellspacing="0">
+		<tr>
+			<td></td>
+		</tr><tr>
+			<td><a href="javascript:__doPostBack('TreeView1','sHigh School')" id="TreeView1n5i" tabindex="-1"><img src="/WebResource.axd?d=7eoJhG-PKpYj4jQJK8vHJkOdbX49XZi7yp9al9PJPMPEimkOBAkcGTHvQKaQEW4U7KMhOQ66dmK1USVORzZx8RRmP_aaDinIwicv9TgmuzLET6rr0&amp;t=635279068304840886" alt="" border="0" /></a></td><td nowrap="nowrap"><a href="javascript:__doPostBack('TreeView1','sHigh School')" id="TreeView1n5"><font face="Tahoma" color="Black" size="2">High School</font></a></td>
+		</tr><tr>
+			<td></td>
+		</tr>
+	</table><table cellpadding="0" cellspacing="0">
+		<tr>
+			<td></td>
+		</tr><tr>
+			<td><a href="javascript:__doPostBack('TreeView1','sJunior High')" id="TreeView1n6i" tabindex="-1"><img src="/WebResource.axd?d=7eoJhG-PKpYj4jQJK8vHJkOdbX49XZi7yp9al9PJPMPEimkOBAkcGTHvQKaQEW4U7KMhOQ66dmK1USVORzZx8RRmP_aaDinIwicv9TgmuzLET6rr0&amp;t=635279068304840886" alt="" border="0" /></a></td><td nowrap="nowrap"><a href="javascript:__doPostBack('TreeView1','sJunior High')" id="TreeView1n6"><font face="Tahoma" color="Black" size="2">Junior High</font></a></td>
+		</tr><tr>
+			<td></td>
+		</tr>
+	</table><table cellpadding="0" cellspacing="0">
+		<tr>
+			<td></td>
+		</tr><tr>
+			<td><a href="javascript:__doPostBack('TreeView1','sMiraj Islamic School')" id="TreeView1n7i" tabindex="-1"><img src="/WebResource.axd?d=7eoJhG-PKpYj4jQJK8vHJkOdbX49XZi7yp9al9PJPMPEimkOBAkcGTHvQKaQEW4U7KMhOQ66dmK1USVORzZx8RRmP_aaDinIwicv9TgmuzLET6rr0&amp;t=635279068304840886" alt="" border="0" /></a></td><td nowrap="nowrap"><a href="javascript:__doPostBack('TreeView1','sMiraj Islamic School')" id="TreeView1n7"><font face="Tahoma" color="Black" size="2">Miraj Islamic School</font></a></td>
+		</tr><tr>
+			<td></td>
+		</tr>
+	</table><table cellpadding="0" cellspacing="0">
+		<tr>
+			<td></td>
+		</tr><tr>
+			<td><a href="javascript:__doPostBack('TreeView1','sPre School')" id="TreeView1n8i" tabindex="-1"><img src="/WebResource.axd?d=7eoJhG-PKpYj4jQJK8vHJkOdbX49XZi7yp9al9PJPMPEimkOBAkcGTHvQKaQEW4U7KMhOQ66dmK1USVORzZx8RRmP_aaDinIwicv9TgmuzLET6rr0&amp;t=635279068304840886" alt="" border="0" /></a></td><td nowrap="nowrap"><a href="javascript:__doPostBack('TreeView1','sPre School')" id="TreeView1n8"><font face="Tahoma" color="Black" size="2">Pre School</font></a></td>
+		</tr><tr>
+			<td></td>
+		</tr>
+	</table><table cellpadding="0" cellspacing="0">
+		<tr>
+			<td></td>
+		</tr><tr>
+			<td><a href="javascript:__doPostBack('TreeView1','sThe Center')" id="TreeView1n9i" tabindex="-1"><img src="/WebResource.axd?d=7eoJhG-PKpYj4jQJK8vHJkOdbX49XZi7yp9al9PJPMPEimkOBAkcGTHvQKaQEW4U7KMhOQ66dmK1USVORzZx8RRmP_aaDinIwicv9TgmuzLET6rr0&amp;t=635279068304840886" alt="" border="0" /></a></td><td nowrap="nowrap"><a href="javascript:__doPostBack('TreeView1','sThe Center')" id="TreeView1n9"><font face="Tahoma" color="Black" size="2">The Center</font></a></td>
+		</tr><tr>
+			<td></td>
+		</tr>
+	</table>
+</div><a id="TreeView1_SkipLink"></a>
+    </div>
+    <div id="flashcontentWrapper">
+        
+        <div id="flashcontent">
+            SimpleViewer requires JavaScript and the Flash Player. <a href="http://www.macromedia.com/go/getflashplayer/">
+                Get Flash.</a></div>
+    </div>
+    <script type="text/javascript">
+
+        var fo = new SWFObject("viewer.swf", "viewer", "100%", "100%", "8", "#181818");
+
+        // SIMPLEVIEWER CONFIGURATION OPTIONS
+        // To use an option, uncomment it by removing the "//" at the start of the line
+        // For a description of config options, go to: 
+        // http://www.airtightinteractive.com/simpleviewer/options.html
+
+        //fo.addVariable("xmlDataPath", "gallery.xml");
+        fo.addVariable("xmlDataPath", "");
+        //fo.addVariable("firstImageIndex", "5");	
+        fo.addVariable("langOpenImage", "Open Image in New Window");
+        //fo.addVariable("langAbout", "About");	
+        fo.addVariable("preloaderColor", "0xFFFFFF");
+
+        fo.write("flashcontent");	
+    </script>
+    <div id="Link">
+        
+        <a href="javascript: history.go(-1)"><< Back</a>
+    </div>
+    </form>
+</body>
+</html>
