@@ -1,0 +1,371 @@
+﻿$.dialog = function (url, params, validation) {
+    var $body = $(document.body),
+        $modal = $('<div class="csc-modal"></div>'),
+        fn_fail, fn_done, fn_always, fn_load, fn_close;
+
+    var removeModal = function () {
+        $modal.trigger("close");
+        $modal.remove();
+       
+        if ($(".csc-modal:visible").length == 0)
+            $body.removeClass("csc-modal-open");
+
+        if ($body.hasClass("csc-design-mode") && $body.find(".widget-form-modal").length == 0)
+            designer.showDesignBar();
+    }
+
+    if ($body.hasClass("csc-design-mode"))
+        designer.hideDesignBar();
+
+    var task = $modal.load(url, params)
+        .done(function () {
+            var result;
+
+            $modal.show();
+            $modal.find("[data-dismiss=modal]").on("click", function (event) {
+
+                if ($(this).prop("disabled") || $(this).is(".disabled"))
+                    return;
+
+                if (validation) {
+                    if (!validation.call($modal[0], this.name))
+                        return;
+                }
+
+                if (fn_done) 
+                    result = fn_done.call($modal[0], this.name);
+
+                if (fn_close) 
+                    result = fn_close.call($modal[0], this);
+
+                $.isPromise(result)
+                    ? result.done(removeModal)
+                    : removeModal();
+            });
+            modalFocusTrap($modal);
+            $modal.focusFirst();
+
+            $body.addClass("csc-modal-open");
+            
+            if (fn_load) fn_load.apply($modal[0], arguments);
+        })
+        .fail(function () {
+            if (fn_fail) fn_fail.apply($modal[0], arguments);
+
+            removeModal();
+        })
+        .always(function () {
+            if (fn_always) fn_always.apply($modal[0], arguments);
+        })
+
+    $body.append($modal.css({display: "block"}));
+
+    // builder
+    var builder = {
+        data: function(data){
+            $modal.data($.extend($modal.data(), data)); return builder;
+        },
+        done: function (callback) {
+            fn_done = callback; return builder;
+        },
+        always: function (callback) {
+            fn_always = callback; return builder;
+        },
+        fail: function (callback) {
+            fn_fail = callback; return builder;
+        },
+        load: function (callback) {
+
+            fn_load = callback; return builder;
+        },
+        close: function (callback) {
+            fn_close = callback; return builder;
+        }
+    }
+
+    //api
+    $modal.data({
+        dialog: {
+            builder: builder,
+            close: function (data) {
+                var result;
+
+                if (fn_close) 
+                    result = fn_close.call($modal[0], data);
+
+                $.isPromise(result)
+                    ? result.done(removeModal)
+                    : removeModal();              
+            },
+            hide: function () {
+                $modal.hide();
+
+                if ($(".csc-modal:visible").length == 0)
+                    $body.removeClass("csc-modal-open");
+            },
+            show: function () {
+                $modal.show();
+                $modal.focusFirst();
+            }
+        }
+    });
+
+    return builder;
+}
+
+$.fn.dialog = function () {
+    var $dialog = this.is(".csc-modal") ? this : this.parents(".csc-modal:first");
+    var options = ($dialog.data() || {}).dialog;
+
+    if (options === undefined) {
+
+        options = {
+            close: function () {
+                $dialog.remove();
+
+                if ($(".csc-modal:visible").length == 0)
+                    $body.removeClass("csc-modal-open");
+            },
+            hide: function () {
+                $dialog.hide();
+
+                if ($(".csc-modal:visible").length == 0)
+                    $body.removeClass("csc-modal-open");
+            },
+            show: function () {
+                $dialog.show();
+                $dialog.focusFirst();
+            }
+        }
+
+        $dialog.find("[data-dismiss=modal]").on("click", function () {
+            options.close();
+        });
+    }
+
+    // return the api
+    return options;
+}
+
+$.alert = function (message, options) {
+    var task = $.Deferred()
+    var defaults = {
+        icon: "fa fa-exclamation-triangle",
+        title: "Page Alert",
+        notes: "",
+        isalert: true
+    }
+
+    if (typeof message === "object") {
+        options = message;
+        message = options.message;
+    }
+
+    options = $.extend({}, defaults, options);
+
+    var $message = $('<div class="csc-popup-message"></div>').html(message);
+    var $notes = $('<div class="csc-popup-notes"></div>').html(options.notes);
+
+    $.popup([$message, $notes], options).done(function () {
+        return task.resolve();
+    });
+
+    return task.promise();
+}
+
+$.confirm = function (message, options) {
+    var defaults = {
+        icon: "fa fa-questin-circle",
+        title: "Confirm",
+        notes: "",
+        checkboxConfirm: false
+    }
+
+    if (typeof message === "object") {
+        options = message;
+        message = options.message;
+    }
+
+    options = $.extend({}, defaults, options);
+    options.closeText = "No";
+    options.buttons = ["Yes"];
+
+    var $message = $('<div class="csc-popup-message"></div>').html(message);
+    var $notes = $('<div class="csc-popup-notes"></div>').html(options.notes);
+
+    return $.popup([$message, $notes], options);
+}
+
+$.prompt = function (message, options) {
+    var task = $.Deferred();
+    var defaults = {
+        icon: "fa fa-question-circle",
+        title: "",
+        value: "",
+        placeholder: "",
+        notes: "",
+        required: false
+    };
+
+    if (typeof message === "object") {
+        options = message;
+        message = options.message;
+    }
+
+    options = $.extend({}, defaults, options);
+    options.closeText = "Cancel";
+    options.buttons = ["Submit"];
+
+    var $message = $('<div class="csc-popup-message"></div>').html(message);
+    var $notes = $('<div class="csc-popup-notes"></div>').html(options.notes);
+    var $control;
+
+    if (options.options) {
+        // normalize option data
+        options.options.forEach(function (item) {
+            item.value = item.value || item.id;
+            item.text = item.text || item.name || item.title;
+            item.checked = item.checked || item.selected || item.value === options.value;
+        });
+
+        options.mode = options.mode || (options.length < 5 ? "radio" : "select");
+
+        if (options.mode === "radio") {
+            $control = $("<ul/>").addClass("csc-list-unstyled");
+            options.options.forEach(function (item) {
+                $control.append('<li><label><input type="radio" name="csc-popup-input" value="' + item.value + '"' + (item.checked ? " checked" : "") + '/> ' + item.text + '</label></li>');
+            });
+        }
+        else {
+            $control = $("<select/>").addClass("csc-form-control");
+            options.options.forEach(function (item) {
+                $control.append('<option value="' + item.value + '"' + (item.checked ? " selected" : "") + '>' + item.text + '</option>');
+            });
+        }
+
+        $control.attr("title", options.placeholder);
+        $control.addClass("csc-popup-input");
+    }
+    else {
+        $control = $('<input class="csc-popup-input csc-form-control" />');
+        $control.attr("placeholder", options.placeholder);
+        $control.attr("value", options.value);
+    }
+
+    $.popup([$message, $control, $notes], options).done(function ($btn, $popup) {
+        var $input = $popup.find(".csc-popup-input");
+
+        var value = $input.is("ul")
+            ? $input.find("input:checked").val() // radio buttons
+            : $input.val().trim(); // selectlist or textbox
+
+        if (options.required && value === "")
+            return task.reject();
+
+        return task.resolve(value);
+    });
+
+    return task.promise();
+}
+
+$.popup = function (html, options) {
+    var task = $.Deferred(),
+        promise = task.promise();
+
+    var $popup = $(
+        [
+            '<div class="csc-modal csc-popup">',
+            '   <div class="csc-modal-dialog">',
+            '        <div class="csc-modal-content csc-popup-content">',
+            '            <div class="csc-popup-title"></div>',
+            '            <div class="csc-popup-body"></div>',
+            '            <div class="csc-popup-buttons">',
+            '                <a href="#" onclick="return false;" tabindex="2" name="close">Close</a>',
+            '            </div>',
+            '        </div>',
+            '    </div>',
+            '</div>'
+        ].join("\n")
+    );
+
+    options = $.extend({}, { icon: "", title: "", buttons: [], cancelText: "Cancel", isalert: false }, options);
+
+    $popup.find(".csc-popup-buttons > a:first").text(options.closeText);
+
+    if (options.height)
+        $popup.find(".csc-popup-content").css("height", options.height);
+
+    if (options.icon)
+        $popup.find(".csc-popup-title").append($("<i></i>").addClass(options.icon));
+
+    if (options.title)
+        $popup.find(".csc-popup-title").append(options.title);
+
+    if (options.buttons && options.buttons.length) {
+        for (var i in options.buttons) {
+            var name = options.buttons[i];
+            $popup.find(".csc-popup-buttons").prepend(
+                '<a href="#" onclick="return false;" name="' + name.toLowerCase() + '">' + name + '</a>'
+            );
+        }
+    }
+
+    if (!$.isArray(html)) html = [html];
+    for(var i = 0; i < html.length; i++) {
+        $popup.find(".csc-popup-body").append(html[i]);
+    }
+
+    if (options.checkboxConfirm) {
+        var chkBoxHtml = "<div class='csc-popup-notes' style='padding-bottom:0'><span class='csc-text-default'>Check box to confirm: "
+                        +"<input class='csc-popup-checkbox' type='checkbox' id='dblConfirmCheckbox' name='dblConfirmCheckbox' /></span></div>";
+        $popup.find(".csc-popup-body").append(chkBoxHtml);
+    }
+
+    $popup.appendTo(document.body);
+    
+    $popup.find(".csc-popup-buttons > a").on("click",
+        function () {
+            if ($(this).attr("name") !== "close" || options.isalert) {
+                task.resolve($(this), $popup);
+            }
+            else task.reject();
+          
+            $popup.remove();
+        });
+
+    if (options.checkboxConfirm) {
+        $popup.find(".csc-popup-buttons > a[name=yes]").hide();
+
+        $popup.find("#dblConfirmCheckbox").change(function () {
+            if ($(this).prop("checked"))
+                $popup.find(".csc-popup-buttons > a[name=yes]").show();
+            else
+                $popup.find(".csc-popup-buttons > a[name=yes]").hide();
+        });
+    }
+
+    $popup.focus();
+    $popup.focusFirst();
+
+    $popup.close = function () {
+        $popup.remove();
+    }
+
+    promise.popup = function () {
+        return $popup;
+    }
+
+    return promise;
+}
+
+
+$.fn.focusFirst = function () {
+    var $parent = this;
+
+    $parent.find("input,select,textarea,a,button,object")
+        .not("input[type=hidden],:hidden,:disabled")
+        .first()
+        .focus();
+
+    return $parent;
+}
