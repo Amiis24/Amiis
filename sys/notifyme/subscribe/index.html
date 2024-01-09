@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html style="min-height: 100%" lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+
+            <link rel="icon" type="image/ico" href="https://content.schoolinsites.com/api/documents/f86ac0b785c6492b962dbc440f12d368.ico" />
+
+
+    
+
+
+
+    <title>
+        
+    Notify Me
+
+    </title>
+
+    <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="/lib/fontawesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="/css/animations.css" />
+    <link rel="stylesheet" href="/css/common.css" />
+    <link rel="stylesheet" href="/css/custom-icons.css" />
+
+    <link rel="stylesheet" href="/css/core/components.css?v=XlDTfNcLomShLEy5a4mzSPzvptU4kSiii-QpHR7KKmc" />
+    <link rel="stylesheet" href="/css/core/dialog.css?v=-fLPUrSzrPE33BX1vy5fCtHRjjHYjtOc4nwvN5xkoN8" />
+    <link rel="stylesheet" href="/css/toolbar.css?v=VwnbxHzktDLVXaVPyZXQYOir4v0G7gYmu2topYebOvo" />
+
+
+    <link rel='stylesheet' href='/lib/fullCalendar/fullcalendar.css' />
+    <link rel='stylesheet' href='/lib/fullCalendar/fullcalendar.print.css' media='print' />
+
+    
+    <link rel="stylesheet" href="/css/jquery-ui/jquery-ui.min.css" />
+    <link rel="stylesheet" href="/css/public.css?v=bfNk53v75R2MR7CPF0Q1V7KBkOzCpM4vvib2oe7yfVM" />
+
+
+    <style name="site-css">
+        @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+
+/*-------- Iconic Template CSS --------*/  
+body {background: #ffffff; font-family:  'Montserrat', Arial, Helvetica, "sans-serif";font-size: 16px;color: #000000;letter-spacing: 0px;line-height: 1.5;}
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {font-family:  'Montserrat', Arial, Helvetica, "sans-serif"; }
+h1,.h1 { font-weight:700;}
+
+/* navigation menu */
+.cs-header-navbar {font-family: 'Montserrat', Arial, Helvetica, "sans-serif"; letter-spacing: 1px; font-size: 14px;background: #1A3D59;} 
+.navbar-default { border: none;background-color: transparent;}
+.navbar {border-radius: 0; margin: 0;}
+.navbar .navbar-default {margin-bottom: 0 } 
+.nav > li > a {   font-family: color: #333;} 
+.navbar-default .navbar-nav > li > a { color: #000; font-size: 16px ; }
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {color: #ccc;}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {color: #999; background-color: #575757;} 
+.navbar-default .navbar-brand {color: #666;}
+.navbar-default .navbar-nav .open .dropdown-menu > li > a { color: #999;background: #F2F2F2;}
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus { color: #fff; background-color: #575757;} 
+.dropdown-menu  { background: #eaeaea;color: #000; font-size: 16px;border-radius: 0px;}
+.dropdown-menu > li > a {color: #000 !important; } 
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus { color: #262626;text-decoration: none;background-color: #dcdcdc;  
+-o-transition:.4s;
+-ms-transition:.4s;
+-moz-transition:.4s;
+-webkit-transition:.4s; 
+transition:.4s;} 
+.navbar-default .navbar-nav > li > a:hover { color: #999; }
+.cs-topmenu .navbar-default .navbar-nav > li > a { color: #fff; }
+.cs-topmenu .navbar-submenu {  color: #999; }
+.navbar-submenu {   background: #f2f2f2;}
+.cs-menuback {backgrond: #818e9f;} 
+
+
+/* padding */ 
+.cs-nopadding {padding: 0; margin: 0 -15px 0 0;}
+.cs-row-nopadding > .content-widget > .content-layout > .row > div:not(:first-child){ padding-left: 0 !important }
+.cs-row-nopadding > .content-widget > .content-layout > .row > div:not(:last-child){ padding-right: 0 !important }
+.cs-padding5 {padding:9px;}
+.cs-paddingright {padding:0;}
+.cs-paddingheader {padding:8px 20px;}
+.cs-paddingmenu {padding:8px 5px;}
+.cs-padding10 {padding:10px;}
+.cs-padding20 {padding:20px;}
+.cs-padding30 {padding:50px;} 
+.cs-paddinglogo {padding:30px 0;}
+.cs-paddinggoogle {padding:0 0 0 90px;}
+.cs-rightpadding {padding:0 30px 0 0;}
+.cs-paddingaddress {padding:8px 40px 8px 10px;} 
+.cs-paddingsocial { padding: 10px 20px;} 
+.cspadding20 {padding:20px;}
+
+/* footer */
+.cs-footer {background:#093902;}
+.cs-footer-info {  text-align: center;} 
+.copyright {color: #ffffff;padding:10px; font-size: 11px;}
+
+/* misc */ 
+.links-lite, .links-lite a:link, .links-lite a:hover, .links-lite a:visited, .links-lite a:active {color: #fff;}
+.links-dark, .links-dark a:link, .links-dark a:hover, .links-dark a:visited, .links-dark a:active {color: #1a3d59;} 
+.text-muted {color: #575757;}
+.table-striped > tbody > tr:nth-of-type(2n+1) {background-color: #f9f9f9;color: #000;} 
+.jumbotron, .jumbotron h1, .jumbotron .h1 {color: #000;}
+.fc-toolbar button {font-size: 11px;}
+.alert-info { background-color: #eaeaea; border-color: #eaeaea; color: #000000;} 
+.cs-center { text-align:center;}
+.cs-lineheight {height:6px;}
+.search-field button, input, optgroup, select, textarea {width:auto;height:auto;} 
+.search-field .fa-search {  color: #fff;}  
+
+/*toolbar */
+.cs-toolbar {background: #093902;}
+.cs-toolbar, .cs-toolbar a {background: #093902; color: #eaeaea; font-size: 14px; }
+
+/* carousel */        
+.cs-carousel-widget-title {font-size:20px;padding:5px; text-transform: uppercase;}
+.cs-carousel-widget-description {padding:5px; font-size:14px;font-weight: normal;}
+.cs-carousel-widget-link {color:#ffffff;padding:5px;font-weight: bold; }   
+.bg-default .cs-carousel-widget-link a,   .bg-contrast .cs-carousel-widget-link a,  .bg-dark  .cs-carousel-widget-link a,  .bg-danger  .cs-carousel-widget-link a {color: #ffffff;} 
+
+@media (max-width: 1100px) {
+.cs-navbar-1 .navbar-toggle.collapsed {
+display: block;} 
+.cs-navbar-1 .navbar-collapse.collapse {
+display: none;}
+}
+}
+
+/*-------- Site CSS --------*/
+button, input, optgroup, select, textarea {font-family: 'Montserrat', Arial, Helvetica, "sans-serif";font-size: 13px;color: #333;border-radius: 5pt ; padding: 2px 4px;}
+
+/* header */
+.cs-header  {  background-image: url("https://content.schoolinsites.com/api/documents/0d08a303b22b46bc9691b732f8215ed7.jpg");  background-attachment: fixed;background-position: center;  background-repeat: no-repeat;  background-size: cover;color: #ffffff;}  
+.headerback {background: #0e1508 url(https://content.schoolinsites.com/api/documents/634c41253f3241e8af5ace571f887327.jpg) repeat 0 0; color:#fff;}
+.cs-overlay {background: transparent url(https://content.schoolinsites.com/api/documents/d066741a905d4b6c97bf778ce95b131a.png) repeat 0 0;} 
+.missiontext {   font-size: 20px;  color: #102418; line-height: 2; font-weight:200; font-style: oblique; }
+.boxshadow { background-color: #fff; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);padding:40px; }
+ 
+.cs-master-layout-fixedwidth .cs-page-layout {background:#edeceb; padding:20px;}
+.cs-master-layout-leftside .cs-page-layout {background:#edeceb; padding:20px;}
+.cs-master-layout-rightside .cs-page-layout {background:#edeceb; padding:20px;}
+  
+.cs-page-bg {background: #edeceb;} 
+
+/* colors */
+.bg-default {background: #041552; color: #ffffff;}  
+a.bg-default:hover, a.bg-default:focus {background: #041552; color: #ffffff;}  
+.bg-contrast {background: #093902; color: #ffffff;} 
+a.bg-contrast:hover, a.bg-default:focus {background: #093902; color: #ffffff;}
+.bg-muted {background: #eaeaea; color: #000000;}
+.bg-clean {background: #ffffff; color: #000000;}
+.bg-dark {background: #222222; color: #ffffff;} 
+a.bg-dark:hover, a.bg-default:focus {background: #222222; color: #ffffff;}
+.bg-success {background: #590600; color: #000000;} 
+a.bg-success:hover, a.bg-success:focus {background: #590600; color: #000000;}
+.bg-info {background: #d2eed1; color: #000000;} 
+a.bg-info:hover, a.bg-info:focus {background: #d2eed1; color: #000000;}
+.bg-warning {background: #f0fbf4; color: #000000;}  
+a.bg-warning:hover, a.bg-warning:focus {background: #f0fbf4; color: #000000;}  
+.bg-danger {background: #fdd806; color: #ffffff;} 
+a.bg-danger:hover, a.bg-danger:focus  {background: #fdd806; color: #ffffff;}
+
+.bg-default .h1, .bg-default .h2,.bg-default .h3,.bg-default .h4,.bg-default .h5,.bg-default .h6,
+.bg-contrast .h1, .bg-contrast .h2,.bg-contrast .h3,.bg-contrast .h4,.bg-contrast .h5,.bg-contrast .h6,
+.bg-dark .h1, .bg-dark .h2,.bg-dark .h3,.bg-dark .h4,.bg-dark .h5,.bg-dark .h6,
+.bg-danger .h1, .bg-danger .h2,.bg-danger .h3,.bg-danger .h4,.bg-danger .h5,.bg-danger .h6 {color: #ffffff;}
+ 
+.bg-fancy { background-image: url("https://content.schoolinsites.com/api/documents/7c8e020dc7c94375bdbe4ec1cc02e34c.jpg");  background-attachment: fixed;  background-position: center;background-repeat: no-repeat;  background-size: cover;color: #ffffff;}
+.bg-fancy a:hover, .bg-fancy a:active, .bg-fancy a:link, .bg-fancy a:visited { color: #ccc;}
+.headerback {background: #0e1508 url(https://content.schoolinsites.com/api/documents/634c41253f3241e8af5ace571f887327.jpg) repeat 0 0; color:#fff;}
+.cs-overlay {background: transparent url(https://content.schoolinsites.com/api/documents/d066741a905d4b6c97bf778ce95b131a.png) repeat 0 0;} 
+.text-info {color:#235277;}
+.missiontext {   font-size: 20px;  color: #102418; line-height: 2; font-weight:200; font-style: oblique; }
+.fc-toolbar button {font-size: 11px;}
+.boxshadow { background-color: #fff; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);padding:40px; }
+.cs-shadow  {background: transparent url(
+https://content.schoolinsites.com/api/documents/5818707420cd4e2e8afcb3150622b3c7.png ) repeat 0 0; }
+.cs-master-layout-fixedwidth .cs-page-layout {background:#edeceb; padding:20px;}
+.cs-master-layout-leftside .cs-page-layout {background:#edeceb; padding:20px;}
+.cs-master-layout-rightside .cs-page-layout {background:#edeceb; padding:20px;}
+
+.list-group a:link, .list-group a:hover, .list-group a:visited, .list-group a:active {color: #000;}
+.panel-title a:link, .panel-title a:hover, .panel-title a:visited, .panel-title a:active {color: #000;}
+
+.bg-default .text-muted,  .bg-contrast .text-muted, .bg-dark .text-muted, .bg-danger .text-muted {color: #ffffff;}
+.bg-default .fc-day-number,  .bg-contrast .fc-day-number, .bg-dark .fc-day-number, .bg-danger .fc-day-number {color: #ffffff;}
+
+.bg-default .panel-title a, .bg-contrast .panel-title a, .bg-dark .panel-title a, .bg-danger .panel-title a {color: #000;}
+.cs-quicklinks-item {margin: 10px 20px; }
+
+    </style>
+
+    <style name="site-fonts">
+        
+
+
+    </style>
+
+    <style name="site-colors">
+        
+    </style>
+
+    
+
+
+
+    <!-- load these scripts first -->
+    <script src="/lib/jquery/dist/jquery.min.js"></script>
+
+    <!-- Put JW Player scripts here for now.  TO DO: Update widget framework to allow for adding javascripts dependencies. -->
+    <script src="/js/jwplayer/jwplayer.js"></script>
+    <script>jwplayer.key = "e2ENuQrC9eoMFbWWNz3dxcI6mkbnbK5iF070aGKXo28=";</script>
+
+
+    
+
+    <script>
+        window.setTimeout(function () { document.title = "Notify Me - Miraj Islamic School"; }, 500);
+    </script>
+
+    
+
+</head>
+<body class="">
+
+    
+    <a class="skip-main" href="#maincontent">Skip to main content</a>
+    
+
+
+
+
+
+    <div class="cs-master-layout cs-master-layout-fullwidth csc-content-tree">
+<div class="cs-toolbar clearfix">
+    <div class="pull-left">
+        <div></div>
+    </div>
+    <div class="pull-right text-right">
+        <div>
+<div class="csc-usertools">
+    <ul class="csc-list-inline">
+        <li class="csc-usertools-login">
+            <a href="/sys/account/login?ru=%2Fsys%2Fnotifyme%2Fsubscribe">
+                <i class="fa fa-sign-in"></i> &nbsp;
+                Login
+            </a>
+        </li>
+        <li class="csc-usertools-register">
+            <a href="/sys/account/register?ru=%2Fsys%2Fnotifyme%2Fsubscribe">
+                Register
+            </a>
+        </li>
+    </ul>
+</div>
+
+</div>
+    </div>
+</div>
+
+<header class="cs-header">
+    <div class="cs-header-content">
+        <div class=" content-zone csc-content-zone" name="header">
+    
+
+
+    <div class="content-node csc-content-node" style="padding-top:0;padding-bottom:0;">
+        <div class="content-widget csc-content-widget" style="">
+            
+<div class="content-layout">
+    <div class="row content-cell-group">
+        <div class="col-sm-8">
+            <div class=" content-zone csc-content-zone" name="cell-1">
+    
+
+
+    <div class="content-node csc-content-node" style="padding-top:None;padding-right:15px;padding-bottom:None;padding-left:15px;border-width:None;border-style:None;border-color:#000000;border-radius:None;">
+        <div class="content-widget csc-content-widget" style="">
+            
+
+    <div class="cs-image-widget">
+        <a href="/" target="_self"><img src="https://content.schoolinsites.com/api/documents/f51e7c01dba8407faa656f9328e70bb3.png" class="img-responsive" alt="Home" title="Home" style="border-radius: 0px;max-width: 100%;max-height: auto" /></a>
+    </div>
+
+        </div>
+    </div>
+
+
+</div>
+        </div>
+        <div class="col-sm-4">
+            <div class=" content-zone csc-content-zone" name="cell-2">
+    
+
+
+    <div class="content-node csc-content-node links-lite" style="padding-top:30px;padding-right:None;padding-bottom:30px;padding-left:None;border-width:None;border-style:None;border-color:#000000;border-radius:None;">
+        <div class="content-widget csc-content-widget" style="">
+            
+<div class="cs-html-widget">
+    <div style="text-align:center;" align="center"><a href="https://www.facebook.com/mirajislamicschool" target="_blank" aria-label="Facebook"><em class="fa fa-facebook fa-2x cs-paddingsocial"></em></a> <a href="https://twitter.com/mirajschool" target="_blank" aria-label="Twitter">
+<em class="fa fa-twitter fa-2x cs-paddingsocial">
+</em></a>
+<a href="mailto:mailto:mirajislamicschool@mirajschool.org"   aria-label="Email">
+<em class="fa fa-envelope fa-2x cs-paddingsocial">
+</em></a>
+ </div>
+</div>
+        </div>
+    </div>
+
+
+</div>
+        </div>
+    </div>
+</div>
+
+        </div>
+    </div>
+
+    
+
+
+    <div class="content-node csc-content-node cs-overlay cs-topmenu" style="padding-top:0;padding-right:None;padding-bottom:0;padding-left:None;border-width:None;border-style:None;border-color:#000000;border-radius:None;">
+        <div class="content-widget csc-content-widget" style="">
+            
+
+
+
+
+    <div class="navbar navbar-default cs-navbar-default" role="navigation">
+        <div class="navbar-header cs-navbar-header">
+            <button class="navbar-toggle cs-navbar-toggle" type="button" data-toggle="collapse" data-target="#b08cda2196cc4bf087fea91b48d21cd8">
+                <span class="sr-only cs-text">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <div id="b08cda2196cc4bf087fea91b48d21cd8" class="collapse navbar-collapse cs-navbar-collapse">
+            <ul class="navbar-nav nav scrollable-nav-menu cs-navbar-list">
+                        <li><a class="cs-link cs-item-title" href="/" target="_self">Home</a></li>
+                        <li class="cs-navbar cs-navbar-item">
+                            <a class="dropdown-toggle cs-link cs-item-title" href="#" data-toggle="dropdown">
+                                About Us
+                                <b class="caret"></b>
+                            </a>
+                            <ul class="dropdown-menu cs-navbar-submenu cs-navbar-item-submenu">
+                                        <li><a class="cs-link cs-item-title" href="/welcomemessage" target="_self">Welcome Message</a></li>
+                                        <li><a class="cs-link cs-item-title" href="/missionstatement" target="_self">Mission Statement</a></li>
+                                        <li><a class="cs-link cs-item-title" href="/schoolhistory" target="_self">School History</a></li>
+                            </ul>
+                        </li>
+                        <li class="cs-navbar cs-navbar-item">
+                            <a class="dropdown-toggle cs-link cs-item-title" href="#" data-toggle="dropdown">
+                                Academics
+                                <b class="caret"></b>
+                            </a>
+                            <ul class="dropdown-menu cs-navbar-submenu cs-navbar-item-submenu">
+                                        <li><a class="cs-link cs-item-title" href="/elementaryschool" target="_self">Elementary School</a></li>
+                                        <li><a class="cs-link cs-item-title" href="/juniorhigh" target="_self">Junior High</a></li>
+                                        <li><a class="cs-link cs-item-title" href="/highschool" target="_self">High School</a></li>
+                                        <li><a class="cs-link cs-item-title" href="/summerreading" target="_self">Summer Reading</a></li>
+                                        <li><a class="cs-link cs-item-title" href="https://content.schoolinsites.com/api/documents/5927fa0de7054f26935f3d7a621e96ea.pdf" target="_blank">Curriculum Guide</a></li>
+                                        <li><a class="cs-link cs-item-title" href="https://content.schoolinsites.com/api/documents/ee9524e15ed84d5b82dfc6de8bd80513.pdf" target="_blank">College Ready</a></li>
+                                        <li><a class="cs-link cs-item-title" href="/standardizedtestsandregentsresults" target="_self">Standardized Tests &amp; Regents Results</a></li>
+                            </ul>
+                        </li>
+                        <li class="cs-navbar cs-navbar-item">
+                            <a class="dropdown-toggle cs-link cs-item-title" href="#" data-toggle="dropdown">
+                                Admissions
+                                <b class="caret"></b>
+                            </a>
+                            <ul class="dropdown-menu cs-navbar-submenu cs-navbar-item-submenu">
+                                        <li><a class="cs-link cs-item-title" href="/courserequirements" target="_self">Course Requirements</a></li>
+                                        <li><a class="cs-link cs-item-title" href="https://content.schoolinsites.com/api/documents/26a614b03ef74e62857ab6d7fba27ca8.pdf" target="_blank">Tuition &amp; Book Fees</a></li>
+                                        <li><a class="cs-link cs-item-title" href="/supplylists" target="_self">Supply Lists</a></li>
+                                        <li><a class="cs-link cs-item-title" href="/uniform" target="_self">Uniform</a></li>
+                            </ul>
+                        </li>
+                        <li class="cs-navbar cs-navbar-item">
+                            <a class="dropdown-toggle cs-link cs-item-title" href="#" data-toggle="dropdown">
+                                Students
+                                <b class="caret"></b>
+                            </a>
+                            <ul class="dropdown-menu cs-navbar-submenu cs-navbar-item-submenu">
+                                        <li><a class="cs-link cs-item-title" href="http://mirajschool.quickschools.com/" target="_blank">QuickSchools</a></li>
+                                        <li><a class="cs-link cs-item-title" href="/quickschoolsinfo" target="_self">QuickSchools Info</a></li>
+                                        <li><a class="cs-link cs-item-title" href="/summerreading" target="_self">Summer Reading</a></li>
+                                        <li><a class="cs-link cs-item-title" href="https://content.schoolinsites.com/api/documents/82ecffff87064be59202752a3b962a45.pdf" target="_blank">Bell Schedule</a></li>
+                                        <li><a class="cs-link cs-item-title" href="/schoolcalendar" target="_self">School Calendar</a></li>
+                                        <li><a class="cs-link cs-item-title" href="/schoolpolicies" target="_self">School Policies</a></li>
+                                        <li><a class="cs-link cs-item-title" href="/lunchmenu" target="_self">Lunch Menu</a></li>
+                            </ul>
+                        </li>
+                        <li class="cs-navbar cs-navbar-item">
+                            <a class="dropdown-toggle cs-link cs-item-title" href="#" data-toggle="dropdown">
+                                Parents
+                                <b class="caret"></b>
+                            </a>
+                            <ul class="dropdown-menu cs-navbar-submenu cs-navbar-item-submenu">
+                                        <li><a class="cs-link cs-item-title" href="http://mirajschool.quickschools.com/" target="_blank">QuickSchools</a></li>
+                                        <li><a class="cs-link cs-item-title" href="/quickschoolsinfo" target="_self">QuickSchools Info</a></li>
+                                        <li><a class="cs-link cs-item-title" href="/schoolcalendar" target="_self">School Calendar</a></li>
+                                        <li><a class="cs-link cs-item-title" href="/schoolpolicies" target="_self">School Policies</a></li>
+                                        <li><a class="cs-link cs-item-title" href="/transportation" target="_self">Transportation</a></li>
+                                        <li><a class="cs-link cs-item-title" href="/lunchmenu" target="_self">Lunch Menu</a></li>
+                                        <li><a class="cs-link cs-item-title" href="/supplylists" target="_self">Supply Lists</a></li>
+                            </ul>
+                        </li>
+                        <li class="cs-navbar cs-navbar-item">
+                            <a class="dropdown-toggle cs-link cs-item-title" href="#" data-toggle="dropdown">
+                                Alumni
+                                <b class="caret"></b>
+                            </a>
+                            <ul class="dropdown-menu cs-navbar-submenu cs-navbar-item-submenu">
+                                        <li><a class="cs-link cs-item-title" href="/transcriptrequests" target="_self">Transcript Requests</a></li>
+                            </ul>
+                        </li>
+                        <li class="cs-navbar cs-navbar-item">
+                            <a class="dropdown-toggle cs-link cs-item-title" href="#" data-toggle="dropdown">
+                                Media
+                                <b class="caret"></b>
+                            </a>
+                            <ul class="dropdown-menu cs-navbar-submenu cs-navbar-item-submenu">
+                                        <li><a class="cs-link cs-item-title" href="/photos" target="_self">Photos</a></li>
+                                        <li><a class="cs-link cs-item-title" href="/videos" target="_self">Videos</a></li>
+                            </ul>
+                        </li>
+                        <li><a class="cs-link cs-item-title" href="/contact" target="_self">Contact Us</a></li>
+                        <li><a class="cs-link cs-item-title" href="/sys/notifyme/start" target="_self">NotifyMe</a></li>
+            </ul>
+        </div>
+    </div>
+
+        </div>
+    </div>
+
+
+</div>
+    </div>
+</header>
+
+<div class="cs-page-bg">
+    <div class="cs-page">
+        <div class="cs-page-layout cs-page-layout-1">
+            <div class="cs-page-content">
+                <div class="page-content cs-main-content csc-content-tree" id="maincontent" role="main">
+<div class="cs-notifyme-signup container">
+
+    <h1>Notify Me</h1>
+
+    <div class="row">
+        <div class="cs-description col-sm-8">
+Login with your existing account or register a new account to sign up for notifications.        </div>
+        <div class="col-sm-4 text-right">
+            <a class="csc-btn csc-btn-default" href="/sys/account/login?ru=%2Fsys%2Fnotifyme%2Fsubscribe">Login</a>
+                <a class="csc-btn csc-btn-default" href="/sys/account/register?ru=%2Fsys%2Fnotifyme%2Fsubscribe">Register</a>
+        </div>
+    </div>
+    <br />
+
+    <component id="notifyMeList_component" data-component="{&quot;id&quot;:&quot;notifyMeList&quot;,&quot;type&quot;:&quot;NotifyMeList&quot;,&quot;params&quot;:{&quot;siteId&quot;:&quot;417827c5d66f44559c8053921663cb16&quot;}}">
+<table class="table">
+    <thead>
+        <tr>
+            <th style="padding-left: 0">Available Groups</th>
+        </tr>
+    </thead>
+    <tbody>
+    </tbody>
+</table></component>
+
+    <br />
+
+    <h6>Terms of Use</h6>
+    <p>
+        By subscribing to our NotifyMe service, you are authorizing SCHOOLinSITES and this organization to notify you via email of any important information we deem necessary to bring to your attention. Your email address will never be used for any purpose except for sending you notifications. You can unsubscribe from the service at any time.  Charges from your carrier for usage may apply.
+    </p>
+</div>
+</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer class="cs-footer">
+    <div class="cs-footer-content">
+        <div class=" content-zone csc-content-zone" name="footer">
+    
+
+
+    <div class="content-node csc-content-node bg-muted" style="padding-top:15px;padding-bottom:15px;">
+        <div class="content-widget csc-content-widget" style="">
+            
+<div class="cs-html-widget">
+    <h5 style="text-align:center;">Miraj Islamic School is committed to ensuring 
+that the content on this website is accessible to everyone, including 
+those with disabilities and users of assistive technology.&nbsp; <br /></h5>
+</div>
+        </div>
+    </div>
+
+    
+
+
+    <div class="content-node csc-content-node bg-contrast" style="padding-top:15px;padding-bottom:15px;">
+        <div class="content-widget csc-content-widget container" style="">
+            
+<div class="content-layout">
+    <div class="row content-cell-group">
+        <div class="col-sm-4">
+            <div class=" content-zone csc-content-zone" name="cell-1">
+    
+
+
+    <div class="content-node csc-content-node cs-blacklinks" style="padding-top:15px;padding-bottom:15px;">
+        <div class="content-widget csc-content-widget csc-force-center" style="">
+            <googletranslate> 
+
+<div id='google_translate_element'></div>
+<script>
+        function googleTranslateElementInit()
+        {
+            new google.translate.TranslateElement({
+                pageLanguage: 'en',
+                autoDisplay: false,
+                layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+            }, 'google_translate_element');
+        }
+</script>
+<script src='//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit'></script>
+</googletranslate>
+        </div>
+    </div>
+
+
+</div>
+        </div>
+        <div class="col-sm-4">
+            <div class=" content-zone csc-content-zone" name="cell-2">
+    
+
+
+    <div class="content-node csc-content-node" style="padding-top:15px;padding-bottom:15px;">
+        <div class="content-widget csc-content-widget" style="">
+            
+<div class="cs-html-widget">
+    <p style="text-align:center;">307 Victory Blvd
+<br />Staten Island, NY 10301
+<br />PH: 718-816-6161
+</p>
+</div>
+        </div>
+    </div>
+
+    
+
+
+    <div class="content-node csc-content-node" style="padding-top:None;padding-right:None;padding-bottom:None;padding-left:None;border-width:None;border-style:None;border-color:#000000;border-radius:None;">
+        <div class="content-widget csc-content-widget csc-force-center" style="">
+            
+
+    <div class="cs-image-widget">
+        <a href="http://www.schoolinsites.com/" target="_blank"><img src="https://content.schoolinsites.com/api/documents/1536a33f166240af9c3ef504396bff37.png" class="img-responsive" alt="SiS Logo" title="SiS Logo" style="border-radius: 0px;max-width: 100%;max-height: auto" /></a>
+    </div>
+
+        </div>
+    </div>
+
+
+</div>
+        </div>
+        <div class="col-sm-4">
+            <div class=" content-zone csc-content-zone" name="cell-3">
+    
+
+
+    <div class="content-node csc-content-node text-center links-dark" style="padding-top:15px;padding-bottom:15px;">
+        <div class="content-widget csc-content-widget csc-force-left" style="">
+            <div class="search-field search-field-lucene" data-module="widgets/search">
+    <label for="q" class="hidden-sc">Search</label>
+    <input id="q" type="text" placeholder="Search" />
+    <i class="fa fa-search"></i>
+</div>
+
+        </div>
+    </div>
+
+
+</div>
+        </div>
+    </div>
+</div>
+
+        </div>
+    </div>
+
+
+</div>
+    </div>
+    <div class="cs-footer-info">
+        <div class="copyright">Copyright &copy; 2021 Miraj Islamic School
+</div>
+    </div>
+</footer>    </div>
+
+
+
+
+
+
+
+
+<script>
+    $(document).ready(function () {
+
+    });
+
+
+    function setCookie(cname, cvalue, exdays) {
+        var d = new Date();
+        d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+        var expires = "expires=" + d.toUTCString();
+        document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+    }
+
+    function getCookie(cname) {
+        //debugger;
+        var name = cname + "=";
+        var decodedCookie = decodeURIComponent(document.cookie);
+        var ca = decodedCookie.split(';');
+        for (var i = 0; i < ca.length; i++) {
+            var c = ca[i];
+            while (c.charAt(0) == ' ') {
+                c = c.substring(1);
+            }
+            if (c.indexOf(name) == 0) {
+                return c.substring(name.length, c.length);
+            }
+        }
+        return "";
+    }
+</script>
+
+
+
+    <script src="/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="/js/site.js?v=ozmdSPSaryI4qJntX2A4gVnoRlhCFPct82E0WX5J4XQ"></script>
+
+    <!-- MVC View Scripts-->
+    
+    <script src="/js/jquery-ui/jquery-ui.min.js"></script>
+    <script src="/js/content.js?v=RFt2nsbRsk7ODh7fPKmVZRIRORp7F8xv1QG4MWVMed8"></script>
+
+
+    
+
+
+
+    <!-- Site Components: Render after MVC View Scripts -->
+    <script src="/js/dialog.js?v=hlq7AQCAPuZSUS9EkIX28lWhm1-JiTh_Tiwe-RaV668"></script>
+    <script src="/js/toolbar.js?v=yA54fWzDkZnO2v4n0iJHqYZSPjpMOvJUc9HZIYnmthA"></script>
+    <script src="/js/siteform.js?v=DGNS2Ca0jlzR36jPMYP91WBUZW44hcSI42EtJEiE0Eo"></script>
+
+    <!-- Load FullCalendar -->
+    <script src='/lib/fullCalendar/moment.min.js'></script>
+    <script src='/lib/fullCalendar/fullcalendar.js'></script>
+
+    <!-- Require Js -->
+    <script src="/lib/requirejs/require.js" data-main="/js/app001"></script>
+
+</body>
+</html>
